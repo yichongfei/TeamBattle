@@ -71,21 +71,16 @@ export class AttackComponent extends Component {
     private tryAttack(): void {
         const target = this.targeting.getCurrentTarget();
         if (!target) return;
+    
         const targetNode = target.getNode();
         if (!targetNode || !targetNode.isValid) return;
-
-        const distance = Vec3.distance(this.node.worldPosition, targetNode.worldPosition);
-        if (distance > this.stats.attackRange) {
-            console.log(`[${this.node.name}] tryAttack: FAILED - Target out of range (${distance.toFixed(0)} > ${this.stats.attackRange}).`);
-            return;
-        }
-
-        const damageableTarget = targetNode.getComponent(HealthComponent) as IDamageable;
-        if (!damageableTarget || !damageableTarget.isAlive()) {
-             return;
-        }
-
-        this.performAttack(damageableTarget as unknown as ITargetable);
+    
+        const distSq = Vec3.squaredDistance(this.node.worldPosition, targetNode.worldPosition);
+        if (distSq > this.stats.attackRange * this.stats.attackRange) return;   // 超出范围
+    
+        /* 若需要速度阈值，可删掉或放宽 */
+    
+        this.performAttack(target);
     }
 
     private performAttack(target: ITargetable): void {

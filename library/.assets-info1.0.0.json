@@ -1,0 +1,748 @@
+{
+  "version": "1.0.0",
+  "map": {
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources.meta": {
+      "time": 1746006954740.6753
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts.meta": {
+      "time": 1746006954955.8267
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\core.meta": {
+      "time": 1746006955725.304
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\core\\events.meta": {
+      "time": 1746006955734.4775
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\core\\utils.meta": {
+      "time": 1746006955751.1562
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources": {
+      "time": 1746006985046.2751,
+      "uuid": "ded64533-2722-4325-8dfd-dd7792c9a445"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts": {
+      "time": 1746006985013.205,
+      "uuid": "ea62e9e0-386b-47a5-8cf8-c2525b54f8a1"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\core": {
+      "time": 1746006917277.9238,
+      "uuid": "fe8d6d22-592f-40a2-a141-41db475ab364"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\core\\events": {
+      "time": 1745485583014.9849,
+      "uuid": "6af427cc-876a-40aa-9127-3419992fceb2"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\core\\utils": {
+      "time": 1745486652129.227,
+      "uuid": "5043f990-196b-41bb-aed6-52dbc7f094bb"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\scene.meta": {
+      "time": 1746006956830.9475
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\map.meta": {
+      "time": 1746006954751.557
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\multTextures.meta": {
+      "time": 1746006954793.4382
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\prefab.meta": {
+      "time": 1746006954922.1455
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine.meta": {
+      "time": 1746006956246.1428
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\multTextures\\Mult-effect.effect.meta": {
+      "time": 1746006954848.0686
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\multTextures\\MultTextures.ts.meta": {
+      "time": 1746006954908.3882
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\prefab\\boss.meta": {
+      "time": 1746006954933.253
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\boss.meta": {
+      "time": 1746006955061.462
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\BossManager.ts.meta": {
+      "time": 1746006954974.1646
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\CameraFollow.ts.meta": {
+      "time": 1746006954991.3252
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\CharacterControl.ts.meta": {
+      "time": 1746006955004.4358
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters.meta": {
+      "time": 1746006955113.5017
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\common.meta": {
+      "time": 1746006955666.9268
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\damage.meta": {
+      "time": 1746006955764.0244
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\fx.meta": {
+      "time": 1746006955811.6746
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\GameControl.ts.meta": {
+      "time": 1746006955022.8772
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\managers.meta": {
+      "time": 1746006955826.1853
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\PlayerSquadManager.ts.meta": {
+      "time": 1746006955046.1099
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop.meta": {
+      "time": 1746006955853.8333
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\1.meta": {
+      "time": 1746006956258.0579
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\2.meta": {
+      "time": 1746006956313.7627
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\3.meta": {
+      "time": 1746006956354.3914
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\4.meta": {
+      "time": 1746006956405.7185
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\5.meta": {
+      "time": 1746006956446.039
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\6.meta": {
+      "time": 1746006956483.454
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss.meta": {
+      "time": 1746006956542.9534
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\boss\\ai.meta": {
+      "time": 1746006955074.126
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\boss\\components.meta": {
+      "time": 1746006955101.399
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\ai.meta": {
+      "time": 1746006955121.3237
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components.meta": {
+      "time": 1746006955256.6873
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\skills.meta": {
+      "time": 1746006955638.0818
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\common\\Enums.ts.meta": {
+      "time": 1746006955689.8342
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\common\\Interfaces.ts.meta": {
+      "time": 1746006955711.1333
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\damage\\DamageControl.ts.meta": {
+      "time": 1746006955796.9436
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\add-anim.ts.meta": {
+      "time": 1746006955931.791
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\dmg.meta": {
+      "time": 1746006955939.8235
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel.meta": {
+      "time": 1746006956109.352
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\1.meta": {
+      "time": 1746006956548.1858
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2.meta": {
+      "time": 1746006956591.7192
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\ai\\AIComponent.ts.meta": {
+      "time": 1746006955203.8591
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\ai\\behaviors.meta": {
+      "time": 1746006955216.7693
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\ai\\decision_making.meta": {
+      "time": 1746006955243.8506
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\AttackComponent.ts.meta": {
+      "time": 1746006955289.7195
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\CharacterAnimation.ts.meta": {
+      "time": 1746006955498.123
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\CharacterStats.ts.meta": {
+      "time": 1746006955514.8357
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\HealthComponent.ts.meta": {
+      "time": 1746006955530.1218
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\MovementComponent.ts.meta": {
+      "time": 1746006955556.3357
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\RoleComponent.ts.meta": {
+      "time": 1746006955574.191
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\SkillComponent.ts.meta": {
+      "time": 1746006955596.7163
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\TargetingComponent.ts.meta": {
+      "time": 1746006955621.9336
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\skills\\implementations.meta": {
+      "time": 1746006955654.6763
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\dmg\\DmgText.meta": {
+      "time": 1746006955951.1584
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\label-anim-data.ts.meta": {
+      "time": 1746006956130.827
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\label-anim-runtime-data.ts.meta": {
+      "time": 1746006956147.3416
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\label-anim-state.ts.meta": {
+      "time": 1746006956176.0322
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\object-pool.ts.meta": {
+      "time": 1746006956198.0261
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\popup-label-assembler.ts.meta": {
+      "time": 1746006956215.4995
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\popup-label.ts.meta": {
+      "time": 1746006956235.6445
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\scene": {
+      "time": 1746006985106.3645,
+      "uuid": "692f32bf-1b8b-4cb3-9e96-d34e8ca2b849"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\map": {
+      "time": 1746006984920.8054,
+      "uuid": "ef04ff30-3124-41f8-af8f-68e43bff589b"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\multTextures": {
+      "time": 1746006984931.7534,
+      "uuid": "c3b9f2e5-e468-456c-aea8-d8c48786ebd1"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\prefab": {
+      "time": 1746006984934.7527,
+      "uuid": "314c345f-0156-4cdc-9b6b-60b189acf960"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine": {
+      "time": 1746006985084.8833,
+      "uuid": "63f04959-ab6d-466c-9505-f322058c76e0"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\prefab\\boss": {
+      "time": 1746006984937.761,
+      "uuid": "dab16033-9d45-4625-a879-9354cc95d2a5"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\boss": {
+      "time": 1746006984961.9084,
+      "uuid": "4c995c1e-fbc4-4bae-a8b4-741da0dd3754"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\multTextures\\MultTextures.ts": {
+      "time": 1746006954898.178,
+      "uuid": "bd7e7bed-a237-4c50-9383-95bb886ff622"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters": {
+      "time": 1746006984989.0176,
+      "uuid": "c756e5bd-f774-41bd-a032-9090e096402c"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\BossManager.ts": {
+      "time": 1746006954960.9717,
+      "uuid": "4d16fcff-8052-4589-ae4b-c2ca091e103f"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\CameraFollow.ts": {
+      "time": 1746006954980.4958,
+      "uuid": "e88aedd5-29fc-4d77-a953-c2b264528910"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\CharacterControl.ts": {
+      "time": 1746006954996.666,
+      "uuid": "4cf02fb6-21f4-4b88-84b6-ca47d7ca2a99"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\multTextures\\Mult-effect.effect": {
+      "time": 1746006954831.669,
+      "uuid": "add9fcaa-8475-4521-917b-7de307b81c4d"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\common": {
+      "time": 1746006984997.0188,
+      "uuid": "4ac4b5b9-de07-41f7-b9e5-4bf207d5ec99"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\damage": {
+      "time": 1746006985006.052,
+      "uuid": "e88420d6-ad09-47ce-ba64-5cae547780d2"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\fx": {
+      "time": 1746006985008.076,
+      "uuid": "3a65657f-2451-47d7-8375-0de9c294cc0a"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\managers": {
+      "time": 1746006985011.2043,
+      "uuid": "b896c72b-d302-4e4a-a3d1-07c913807fd4"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop": {
+      "time": 1746006985035.7605,
+      "uuid": "1857eeb4-386c-48bd-885e-952097e38aa9"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\1": {
+      "time": 1746006985056.7837,
+      "uuid": "53373459-3099-4b82-8b64-ab0dd0c123f2"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\2": {
+      "time": 1746006985061.8794,
+      "uuid": "534f35d4-4916-4e57-8d1a-8262ec6dbe81"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\GameControl.ts": {
+      "time": 1746006955010.935,
+      "uuid": "3bfb404c-e268-43e8-80a5-cab65ac609a3"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\3": {
+      "time": 1746006985067.872,
+      "uuid": "ab90ef25-71b9-4169-aa23-a64efda3f331"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\4": {
+      "time": 1746006985072.9685,
+      "uuid": "ffa896f6-1449-4eaf-b4e7-554f39e29f85"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\5": {
+      "time": 1746006985078.8826,
+      "uuid": "cc77c3ab-5f36-44fb-b32d-718d945cc076"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\6": {
+      "time": 1746006985083.8828,
+      "uuid": "f789119f-1ffd-41bd-a9a7-08c8008a98e9"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\PlayerSquadManager.ts": {
+      "time": 1746006955038.431,
+      "uuid": "0e505355-0f46-45b4-a165-3c3e946a257d"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss": {
+      "time": 1746006985092.0125,
+      "uuid": "784d0120-7483-4160-8546-f539d72da429"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\boss\\ai": {
+      "time": 1746006984960.9233,
+      "uuid": "162bd5e7-762f-44b5-9d8a-d854fd916936"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\boss\\components": {
+      "time": 1746006984962.9165,
+      "uuid": "87686563-3f1b-4cbf-839b-3b584447b4cb"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\ai": {
+      "time": 1746006984973.9895,
+      "uuid": "b761e8e6-e2f6-4f02-9f05-6f9d13a62346"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components": {
+      "time": 1746006984988.013,
+      "uuid": "0f121a8d-f07a-4c61-a712-f9f75144561e"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\skills": {
+      "time": 1746006984991.0266,
+      "uuid": "c2cd0714-7b28-4b15-8a81-4fc4cd84291b"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\dmg": {
+      "time": 1746006985031.7683,
+      "uuid": "f8b42de1-1f18-4c40-8442-15fe1e009ceb"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel": {
+      "time": 1746006985044.266,
+      "uuid": "e6e2f46c-9ced-4adf-97e8-b2fab0feeb1d"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\common\\Enums.ts": {
+      "time": 1746006955681.1907,
+      "uuid": "57253715-de3b-49cf-b542-f7545b8a4860"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\1": {
+      "time": 1746006985091.006,
+      "uuid": "fc9f3593-9d0f-46f2-bda1-7631001df81d"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2": {
+      "time": 1746006985103.8384,
+      "uuid": "00d9599d-e9c1-4b21-a97c-50c5bb3c5c43"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\common\\Interfaces.ts": {
+      "time": 1746006955701.214,
+      "uuid": "41b114c5-d516-4281-ad4f-e56813c583e7"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\damage\\DamageControl.ts": {
+      "time": 1746006955781.943,
+      "uuid": "8378bbc8-b693-4b44-8636-f92944b9bfe9"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\ai\\behaviors": {
+      "time": 1746006984972.9888,
+      "uuid": "f53ce7a5-fa37-4acf-ab93-2da43590c1f0"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\ai\\decision_making": {
+      "time": 1746006984974.989,
+      "uuid": "3312d717-3880-4d0a-84dd-e6f5483551ad"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\add-anim.ts": {
+      "time": 1746006955916.0408,
+      "uuid": "eaf499eb-1ed6-4d54-a721-308b25c2d29a"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\ai\\AIComponent.ts": {
+      "time": 1746006955186.715,
+      "uuid": "dc7e8e48-a471-4da3-be5b-47fee1877b68"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\AttackComponent.ts": {
+      "time": 1746006955272.9465,
+      "uuid": "f777324b-3e02-4d41-9ff5-44669e32d138"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\CharacterAnimation.ts": {
+      "time": 1746006955475.4172,
+      "uuid": "9261a71d-e71b-40ca-b54c-8732ba19d09c"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\CharacterStats.ts": {
+      "time": 1746006955506.5413,
+      "uuid": "49443446-5a97-4c67-b03f-ec7ed32d070d"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\HealthComponent.ts": {
+      "time": 1746006955521.9524,
+      "uuid": "d5c3d48c-f860-4de4-918e-6b4375218084"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\skills\\implementations": {
+      "time": 1746006984992.028,
+      "uuid": "27e7d63b-935f-498c-99b8-2b90e3636ac8"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\MovementComponent.ts": {
+      "time": 1746006955541.0894,
+      "uuid": "dc79bb0a-5266-40ae-9995-afebd7d038d1"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\dmg\\DmgText": {
+      "time": 1746006985034.7595,
+      "uuid": "a9e7fb40-c717-48f0-98a4-9637d91acb89"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\RoleComponent.ts": {
+      "time": 1746006955561.6946,
+      "uuid": "9337ab12-e584-41bf-878b-1ddee3a47f8f"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\SkillComponent.ts": {
+      "time": 1746006955579.2773,
+      "uuid": "e38dad9d-a29e-41be-b9d6-97376a937ae7"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\characters\\components\\TargetingComponent.ts": {
+      "time": 1746006955609.7234,
+      "uuid": "73ce0df9-23cb-4b9b-9454-399bdf71228b"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\label-anim-data.ts": {
+      "time": 1746006956120.115,
+      "uuid": "f66d8ff4-b9ce-4a25-92c5-c1195fb3361f"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\label-anim-runtime-data.ts": {
+      "time": 1746006956136.9492,
+      "uuid": "4e332da7-07f6-4229-8d14-063c5be9510b"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\label-anim-state.ts": {
+      "time": 1746006956161.375,
+      "uuid": "b1c89174-1754-46ab-88b1-59da90be2211"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\object-pool.ts": {
+      "time": 1746006956185.5254,
+      "uuid": "c1637364-1911-41f6-98b1-decbc086394d"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\popup-label-assembler.ts": {
+      "time": 1746006956205.251,
+      "uuid": "6cb5a8de-29d5-4866-8ea7-3bf17ab0f66d"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\popuplabel\\popup-label.ts": {
+      "time": 1746006956220.974,
+      "uuid": "337d589c-9553-4fec-97bc-91199f418edf"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\scene\\fightScene.scene.meta": {
+      "time": 1746006956842.2913
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\map\\12.19.png.meta": {
+      "time": 1746006954784.391
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\multTextures\\Mult-material.mtl.meta": {
+      "time": 1746006954879.1206
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\prefab\\boss\\baize.prefab.meta": {
+      "time": 1746006954947.1738
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\1.fnt.meta": {
+      "time": 1746006955886.2397
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\1.png.meta": {
+      "time": 1746006955902.8484
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\number.fnt.meta": {
+      "time": 1746006955997.194
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\number.png.meta": {
+      "time": 1746006956004.3665
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\number1.fnt.meta": {
+      "time": 1746006956039.0293
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\number1.png.meta": {
+      "time": 1746006956050.2122
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\opensans-bold.fnt.meta": {
+      "time": 1746006956075.1633
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\opensans-bold.png.meta": {
+      "time": 1746006956086.7283
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\pop.scene.meta": {
+      "time": 1746006956099.3257
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\1\\2505004.atlas.meta": {
+      "time": 1746006956274.1648
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\1\\2505004.json.meta": {
+      "time": 1746006956293.809
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\1\\2505004.png.meta": {
+      "time": 1746006956305.2146
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\2\\2405005.atlas.meta": {
+      "time": 1746006956323.2686
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\2\\2405005.json.meta": {
+      "time": 1746006956338.6685
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\2\\2405005.png.meta": {
+      "time": 1746006956348.1162
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\3\\505010.atlas.meta": {
+      "time": 1746006956362.4263
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\3\\505010.json.meta": {
+      "time": 1746006956383.379
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\3\\505010.png.meta": {
+      "time": 1746006956395.1155
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\4\\505007.atlas.meta": {
+      "time": 1746006956413.5994
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\4\\505007.json.meta": {
+      "time": 1746006956429.5903
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\4\\505007.png.meta": {
+      "time": 1746006956440.1743
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\5\\505006.atlas.meta": {
+      "time": 1746006956450.9866
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\5\\505006.json.meta": {
+      "time": 1746006956463.6577
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\5\\505006.png.meta": {
+      "time": 1746006956473.6792
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\6\\505004.atlas.meta": {
+      "time": 1746006956492.636
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\6\\505004.json.meta": {
+      "time": 1746006956527.2732
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\6\\505004.png.meta": {
+      "time": 1746006956536.5012
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\1\\boss1.atlas.meta": {
+      "time": 1746006956552.7246
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\1\\boss1.json.meta": {
+      "time": 1746006956563.6406
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\1\\boss1.png.meta": {
+      "time": 1746006956574.1018
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize.atlas.meta": {
+      "time": 1746006956601.3667
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize.json.meta": {
+      "time": 1746006956615.6123
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize.png.meta": {
+      "time": 1746006956639.4343
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize_2.png.meta": {
+      "time": 1746006956731.3384
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize_3.png.meta": {
+      "time": 1746006956773.9773
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize_4.png.meta": {
+      "time": 1746006956801.3496
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize_5.png.meta": {
+      "time": 1746006956817.994
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\dmg\\DmgText\\dmgtext.anim.meta": {
+      "time": 1746006955966.896
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\multTextures\\Mult-material.mtl": {
+      "time": 1746006954863.5981,
+      "uuid": "490db6c2-4dd4-4050-98ec-c1c62ccaae16"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\prefab\\boss\\baize.prefab": {
+      "time": 1746006954933.253,
+      "uuid": "2d2beb31-5f77-46c7-8465-acef8ae0f318"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\1.fnt": {
+      "time": 1746006955869.7405,
+      "uuid": "163e9c3b-3025-4d73-b3df-c1628d013352"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\number.fnt": {
+      "time": 1746006955982.4355,
+      "uuid": "cc8a789f-8bed-4a6c-a60f-f03a0135dfb5"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\scene\\fightScene.scene": {
+      "time": 1746007029031.771,
+      "uuid": "96eced35-a6f6-4622-a5e8-4e119d786f65"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\number1.fnt": {
+      "time": 1746006956018.023,
+      "uuid": "aa6a38fd-5385-4383-9cce-a084a5daf58b"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\1.png": {
+      "time": 1746006955887.2551,
+      "uuid": "33eeeb6e-bc8d-4f02-b4f5-24585c1a491d"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\number.png": {
+      "time": 1746006955998.206,
+      "uuid": "439e2854-a886-4a42-8166-3c9274379494"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\number1.png": {
+      "time": 1746006956039.3455,
+      "uuid": "f1ea97ca-3375-44e5-a93a-5e7c61c47600"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\opensans-bold.fnt": {
+      "time": 1746006956059.4846,
+      "uuid": "4fc4b335-7014-49e3-bada-12404787f159"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\1\\2505004.atlas": {
+      "time": 1746006956258.0579,
+      "uuid": "6b17d778-ac70-460e-b859-a7d0b5474e9e"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\pop.scene": {
+      "time": 1746006956086.7283,
+      "uuid": "b4202023-3f3a-4857-bb08-c7a889c5e488"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\opensans-bold.png": {
+      "time": 1746006956081.496,
+      "uuid": "49220199-ebdd-4154-8f13-a12e3a75b692"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\2\\2405005.atlas": {
+      "time": 1746006956314.9968,
+      "uuid": "5748868f-e737-4eda-a96d-c980eecf1c8b"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\1\\2505004.json": {
+      "time": 1746006956284.41,
+      "uuid": "883ddc56-9c99-4003-9b3d-7df352e0b05d"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\1\\2505004.png": {
+      "time": 1746006956301.4197,
+      "uuid": "f931f1fb-eb91-4079-93c1-af4fc65ff5b2"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\3\\505010.atlas": {
+      "time": 1746006956355.6255,
+      "uuid": "864fed01-b90b-48f4-8115-aa788eb20d88"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\2\\2405005.json": {
+      "time": 1746006956331.1274,
+      "uuid": "ac3effc3-7e6a-4340-bd29-c336c4464eb8"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\4\\505007.atlas": {
+      "time": 1746006956405.7185,
+      "uuid": "015ea0df-419c-429a-9216-b99395f30f1c"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\2\\2405005.png": {
+      "time": 1746006956344.3462,
+      "uuid": "d86b3475-b0dd-44d2-90d3-3b9b42fad577"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\3\\505010.json": {
+      "time": 1746006956372.6636,
+      "uuid": "7240b583-a1b5-4c4c-90ed-ef9060b7c2f3"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\3\\505010.png": {
+      "time": 1746006956389.8877,
+      "uuid": "8b78df34-cdaf-4699-b1ba-588f5a0ec790"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\4\\505007.json": {
+      "time": 1746006956419.1501,
+      "uuid": "49a03844-765f-4a31-b1ff-a45209f40a9c"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\5\\505006.atlas": {
+      "time": 1746006956446.039,
+      "uuid": "6a3abd71-26d3-4c5e-8c10-98c4baa725db"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\6\\505004.atlas": {
+      "time": 1746006956483.454,
+      "uuid": "2a00510f-d601-485a-bb80-65b2c7e0e6e9"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\4\\505007.png": {
+      "time": 1746006956434.982,
+      "uuid": "4e403b17-e995-4574-97d8-9cd720c10a82"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\6\\505004.json": {
+      "time": 1746006956512.5144,
+      "uuid": "9530365f-17fd-4b7e-a296-638ca7909f1b"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\5\\505006.png": {
+      "time": 1746006956469.6453,
+      "uuid": "7467025f-229b-45b4-be4d-a94f9279d036"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\5\\505006.json": {
+      "time": 1746006956456.4983,
+      "uuid": "f331cb1c-1cf8-4b0e-922a-2f9f03146f57"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\1\\boss1.atlas": {
+      "time": 1746006956548.1858,
+      "uuid": "a39e82b9-a067-4e23-bd0a-227dde5a7723"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\1\\boss1.json": {
+      "time": 1746006956556.3933,
+      "uuid": "20f812c7-2295-4706-8c3c-98d27b8222e9"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize.atlas": {
+      "time": 1746006956591.7192,
+      "uuid": "1d71a40c-9789-4d73-a111-a5df0f7436b4"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\6\\505004.png": {
+      "time": 1746006956532.2827,
+      "uuid": "7e8ab95b-a6b8-4ca6-9588-85e1673f50cd"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\1\\boss1.png": {
+      "time": 1746006956570.0671,
+      "uuid": "dc5a573f-1c0a-4d69-94de-ae4f2e3ec0d7"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize.json": {
+      "time": 1746006956607.8987,
+      "uuid": "02cac01b-3567-4318-bb7b-0d29ae6323eb"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize_2.png": {
+      "time": 1746006956653.2578,
+      "uuid": "cc8c1666-8145-453b-b8df-d649caa03ac5"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize.png": {
+      "time": 1746006956633.4915,
+      "uuid": "0facfb45-4b31-4dc4-9e8d-2a464ce31320"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize_3.png": {
+      "time": 1746006956763.531,
+      "uuid": "2426a692-9fcf-4ede-b44d-00b103d6153a"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\scripts\\pop\\dmg\\DmgText\\dmgtext.anim": {
+      "time": 1746006955956.7268,
+      "uuid": "66a1da17-d7b4-41ec-a6cb-69db7f75b8da"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize_5.png": {
+      "time": 1746006956808.198,
+      "uuid": "755e6404-7043-4cd9-8fb3-2959d08f400c"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\spine\\boss\\2\\baize_4.png": {
+      "time": 1746006956792.688,
+      "uuid": "743f5a6e-7ec1-46fc-a4a0-67589a9b6204"
+    },
+    "D:\\cocos creator project\\TeamBattle\\assets\\resources\\map\\12.19.png": {
+      "time": 1746006954776.4624,
+      "uuid": "c39ba743-6917-4ec2-bb1b-da97c548077b"
+    }
+  },
+  "missing": {}
+}

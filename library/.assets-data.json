@@ -1,0 +1,994 @@
+{
+  "ded64533-2722-4325-8dfd-dd7792c9a445": {
+    "url": "db://assets/resources",
+    "value": {},
+    "versionCode": 1
+  },
+  "ea62e9e0-386b-47a5-8cf8-c2525b54f8a1": {
+    "url": "db://assets/resources/scripts",
+    "value": {},
+    "versionCode": 1
+  },
+  "fe8d6d22-592f-40a2-a141-41db475ab364": {
+    "url": "db://assets/resources/scripts/core",
+    "value": {},
+    "versionCode": 1
+  },
+  "6af427cc-876a-40aa-9127-3419992fceb2": {
+    "url": "db://assets/resources/scripts/core/events",
+    "value": {},
+    "versionCode": 1
+  },
+  "5043f990-196b-41bb-aed6-52dbc7f094bb": {
+    "url": "db://assets/resources/scripts/core/utils",
+    "value": {},
+    "versionCode": 1
+  },
+  "692f32bf-1b8b-4cb3-9e96-d34e8ca2b849": {
+    "url": "db://assets/scene",
+    "value": {},
+    "versionCode": 1
+  },
+  "ef04ff30-3124-41f8-af8f-68e43bff589b": {
+    "url": "db://assets/resources/map",
+    "value": {},
+    "versionCode": 1
+  },
+  "c3b9f2e5-e468-456c-aea8-d8c48786ebd1": {
+    "url": "db://assets/resources/multTextures",
+    "value": {},
+    "versionCode": 1
+  },
+  "314c345f-0156-4cdc-9b6b-60b189acf960": {
+    "url": "db://assets/resources/prefab",
+    "value": {},
+    "versionCode": 1
+  },
+  "63f04959-ab6d-466c-9505-f322058c76e0": {
+    "url": "db://assets/resources/spine",
+    "value": {},
+    "versionCode": 1
+  },
+  "add9fcaa-8475-4521-917b-7de307b81c4d": {
+    "url": "db://assets/resources/multTextures/Mult-effect.effect",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "bd7e7bed-a237-4c50-9383-95bb886ff622": {
+    "url": "db://assets/resources/multTextures/MultTextures.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dab16033-9d45-4625-a879-9354cc95d2a5": {
+    "url": "db://assets/resources/prefab/boss",
+    "value": {},
+    "versionCode": 1
+  },
+  "4c995c1e-fbc4-4bae-a8b4-741da0dd3754": {
+    "url": "db://assets/resources/scripts/boss",
+    "value": {},
+    "versionCode": 1
+  },
+  "4d16fcff-8052-4589-ae4b-c2ca091e103f": {
+    "url": "db://assets/resources/scripts/BossManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e88aedd5-29fc-4d77-a953-c2b264528910": {
+    "url": "db://assets/resources/scripts/CameraFollow.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4cf02fb6-21f4-4b88-84b6-ca47d7ca2a99": {
+    "url": "db://assets/resources/scripts/CharacterControl.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c756e5bd-f774-41bd-a032-9090e096402c": {
+    "url": "db://assets/resources/scripts/characters",
+    "value": {},
+    "versionCode": 1
+  },
+  "4ac4b5b9-de07-41f7-b9e5-4bf207d5ec99": {
+    "url": "db://assets/resources/scripts/common",
+    "value": {},
+    "versionCode": 1
+  },
+  "e88420d6-ad09-47ce-ba64-5cae547780d2": {
+    "url": "db://assets/resources/scripts/damage",
+    "value": {},
+    "versionCode": 1
+  },
+  "3a65657f-2451-47d7-8375-0de9c294cc0a": {
+    "url": "db://assets/resources/scripts/fx",
+    "value": {},
+    "versionCode": 1
+  },
+  "3bfb404c-e268-43e8-80a5-cab65ac609a3": {
+    "url": "db://assets/resources/scripts/GameControl.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b896c72b-d302-4e4a-a3d1-07c913807fd4": {
+    "url": "db://assets/resources/scripts/managers",
+    "value": {},
+    "versionCode": 1
+  },
+  "0e505355-0f46-45b4-a165-3c3e946a257d": {
+    "url": "db://assets/resources/scripts/PlayerSquadManager.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "1857eeb4-386c-48bd-885e-952097e38aa9": {
+    "url": "db://assets/resources/scripts/pop",
+    "value": {},
+    "versionCode": 1
+  },
+  "53373459-3099-4b82-8b64-ab0dd0c123f2": {
+    "url": "db://assets/resources/spine/1",
+    "value": {},
+    "versionCode": 1
+  },
+  "534f35d4-4916-4e57-8d1a-8262ec6dbe81": {
+    "url": "db://assets/resources/spine/2",
+    "value": {},
+    "versionCode": 1
+  },
+  "ab90ef25-71b9-4169-aa23-a64efda3f331": {
+    "url": "db://assets/resources/spine/3",
+    "value": {},
+    "versionCode": 1
+  },
+  "ffa896f6-1449-4eaf-b4e7-554f39e29f85": {
+    "url": "db://assets/resources/spine/4",
+    "value": {},
+    "versionCode": 1
+  },
+  "cc77c3ab-5f36-44fb-b32d-718d945cc076": {
+    "url": "db://assets/resources/spine/5",
+    "value": {},
+    "versionCode": 1
+  },
+  "f789119f-1ffd-41bd-a9a7-08c8008a98e9": {
+    "url": "db://assets/resources/spine/6",
+    "value": {},
+    "versionCode": 1
+  },
+  "784d0120-7483-4160-8546-f539d72da429": {
+    "url": "db://assets/resources/spine/boss",
+    "value": {},
+    "versionCode": 1
+  },
+  "162bd5e7-762f-44b5-9d8a-d854fd916936": {
+    "url": "db://assets/resources/scripts/boss/ai",
+    "value": {},
+    "versionCode": 1
+  },
+  "87686563-3f1b-4cbf-839b-3b584447b4cb": {
+    "url": "db://assets/resources/scripts/boss/components",
+    "value": {},
+    "versionCode": 1
+  },
+  "b761e8e6-e2f6-4f02-9f05-6f9d13a62346": {
+    "url": "db://assets/resources/scripts/characters/ai",
+    "value": {},
+    "versionCode": 1
+  },
+  "0f121a8d-f07a-4c61-a712-f9f75144561e": {
+    "url": "db://assets/resources/scripts/characters/components",
+    "value": {},
+    "versionCode": 1
+  },
+  "c2cd0714-7b28-4b15-8a81-4fc4cd84291b": {
+    "url": "db://assets/resources/scripts/characters/skills",
+    "value": {},
+    "versionCode": 1
+  },
+  "57253715-de3b-49cf-b542-f7545b8a4860": {
+    "url": "db://assets/resources/scripts/common/Enums.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "41b114c5-d516-4281-ad4f-e56813c583e7": {
+    "url": "db://assets/resources/scripts/common/Interfaces.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "8378bbc8-b693-4b44-8636-f92944b9bfe9": {
+    "url": "db://assets/resources/scripts/damage/DamageControl.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "eaf499eb-1ed6-4d54-a721-308b25c2d29a": {
+    "url": "db://assets/resources/scripts/pop/add-anim.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f8b42de1-1f18-4c40-8442-15fe1e009ceb": {
+    "url": "db://assets/resources/scripts/pop/dmg",
+    "value": {},
+    "versionCode": 1
+  },
+  "e6e2f46c-9ced-4adf-97e8-b2fab0feeb1d": {
+    "url": "db://assets/resources/scripts/pop/popuplabel",
+    "value": {},
+    "versionCode": 1
+  },
+  "fc9f3593-9d0f-46f2-bda1-7631001df81d": {
+    "url": "db://assets/resources/spine/boss/1",
+    "value": {},
+    "versionCode": 1
+  },
+  "00d9599d-e9c1-4b21-a97c-50c5bb3c5c43": {
+    "url": "db://assets/resources/spine/boss/2",
+    "value": {},
+    "versionCode": 1
+  },
+  "dc7e8e48-a471-4da3-be5b-47fee1877b68": {
+    "url": "db://assets/resources/scripts/characters/ai/AIComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "f53ce7a5-fa37-4acf-ab93-2da43590c1f0": {
+    "url": "db://assets/resources/scripts/characters/ai/behaviors",
+    "value": {},
+    "versionCode": 1
+  },
+  "3312d717-3880-4d0a-84dd-e6f5483551ad": {
+    "url": "db://assets/resources/scripts/characters/ai/decision_making",
+    "value": {},
+    "versionCode": 1
+  },
+  "f777324b-3e02-4d41-9ff5-44669e32d138": {
+    "url": "db://assets/resources/scripts/characters/components/AttackComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "9261a71d-e71b-40ca-b54c-8732ba19d09c": {
+    "url": "db://assets/resources/scripts/characters/components/CharacterAnimation.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "49443446-5a97-4c67-b03f-ec7ed32d070d": {
+    "url": "db://assets/resources/scripts/characters/components/CharacterStats.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "d5c3d48c-f860-4de4-918e-6b4375218084": {
+    "url": "db://assets/resources/scripts/characters/components/HealthComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "dc79bb0a-5266-40ae-9995-afebd7d038d1": {
+    "url": "db://assets/resources/scripts/characters/components/MovementComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "9337ab12-e584-41bf-878b-1ddee3a47f8f": {
+    "url": "db://assets/resources/scripts/characters/components/RoleComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "e38dad9d-a29e-41be-b9d6-97376a937ae7": {
+    "url": "db://assets/resources/scripts/characters/components/SkillComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "73ce0df9-23cb-4b9b-9454-399bdf71228b": {
+    "url": "db://assets/resources/scripts/characters/components/TargetingComponent.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "27e7d63b-935f-498c-99b8-2b90e3636ac8": {
+    "url": "db://assets/resources/scripts/characters/skills/implementations",
+    "value": {},
+    "versionCode": 1
+  },
+  "a9e7fb40-c717-48f0-98a4-9637d91acb89": {
+    "url": "db://assets/resources/scripts/pop/dmg/DmgText",
+    "value": {},
+    "versionCode": 1
+  },
+  "f66d8ff4-b9ce-4a25-92c5-c1195fb3361f": {
+    "url": "db://assets/resources/scripts/pop/popuplabel/label-anim-data.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "4e332da7-07f6-4229-8d14-063c5be9510b": {
+    "url": "db://assets/resources/scripts/pop/popuplabel/label-anim-runtime-data.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "b1c89174-1754-46ab-88b1-59da90be2211": {
+    "url": "db://assets/resources/scripts/pop/popuplabel/label-anim-state.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "c1637364-1911-41f6-98b1-decbc086394d": {
+    "url": "db://assets/resources/scripts/pop/popuplabel/object-pool.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "6cb5a8de-29d5-4866-8ea7-3bf17ab0f66d": {
+    "url": "db://assets/resources/scripts/pop/popuplabel/popup-label-assembler.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "337d589c-9553-4fec-97bc-91199f418edf": {
+    "url": "db://assets/resources/scripts/pop/popuplabel/popup-label.ts",
+    "value": {},
+    "versionCode": 1
+  },
+  "96eced35-a6f6-4622-a5e8-4e119d786f65": {
+    "url": "db://assets/scene/fightScene.scene",
+    "value": {
+      "depends": [
+        "96eced35-a6f6-4622-a5e8-4e119d786f65",
+        "2d2beb31-5f77-46c7-8465-acef8ae0f318",
+        "c39ba743-6917-4ec2-bb1b-da97c548077b@f9941",
+        "f1ea97ca-3375-44e5-a93a-5e7c61c47600@f9941",
+        "aa6a38fd-5385-4383-9cce-a084a5daf58b",
+        "883ddc56-9c99-4003-9b3d-7df352e0b05d"
+      ],
+      "dependScripts": [
+        "e88aedd5-29fc-4d77-a953-c2b264528910",
+        "0e505355-0f46-45b4-a165-3c3e946a257d",
+        "4d16fcff-8052-4589-ae4b-c2ca091e103f",
+        "337d589c-9553-4fec-97bc-91199f418edf",
+        "8378bbc8-b693-4b44-8636-f92944b9bfe9",
+        "f777324b-3e02-4d41-9ff5-44669e32d138",
+        "49443446-5a97-4c67-b03f-ec7ed32d070d",
+        "73ce0df9-23cb-4b9b-9454-399bdf71228b",
+        "9337ab12-e584-41bf-878b-1ddee3a47f8f",
+        "9261a71d-e71b-40ca-b54c-8732ba19d09c",
+        "d5c3d48c-f860-4de4-918e-6b4375218084",
+        "dc79bb0a-5266-40ae-9995-afebd7d038d1",
+        "e38dad9d-a29e-41be-b9d6-97376a937ae7",
+        "dc7e8e48-a471-4da3-be5b-47fee1877b68"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c39ba743-6917-4ec2-bb1b-da97c548077b": {
+    "url": "db://assets/resources/map/12.19.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "490db6c2-4dd4-4050-98ec-c1c62ccaae16": {
+    "url": "db://assets/resources/multTextures/Mult-material.mtl",
+    "value": {
+      "depends": [
+        "add9fcaa-8475-4521-917b-7de307b81c4d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2d2beb31-5f77-46c7-8465-acef8ae0f318": {
+    "url": "db://assets/resources/prefab/boss/baize.prefab",
+    "value": {
+      "depends": [
+        "02cac01b-3567-4318-bb7b-0d29ae6323eb"
+      ],
+      "dependScripts": [
+        "49443446-5a97-4c67-b03f-ec7ed32d070d",
+        "d5c3d48c-f860-4de4-918e-6b4375218084"
+      ]
+    },
+    "versionCode": 1
+  },
+  "163e9c3b-3025-4d73-b3df-c1628d013352": {
+    "url": "db://assets/resources/scripts/pop/1.fnt",
+    "value": {
+      "depends": [
+        "33eeeb6e-bc8d-4f02-b4f5-24585c1a491d@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "33eeeb6e-bc8d-4f02-b4f5-24585c1a491d": {
+    "url": "db://assets/resources/scripts/pop/1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "cc8a789f-8bed-4a6c-a60f-f03a0135dfb5": {
+    "url": "db://assets/resources/scripts/pop/number.fnt",
+    "value": {
+      "depends": [
+        "439e2854-a886-4a42-8166-3c9274379494@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "439e2854-a886-4a42-8166-3c9274379494": {
+    "url": "db://assets/resources/scripts/pop/number.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "aa6a38fd-5385-4383-9cce-a084a5daf58b": {
+    "url": "db://assets/resources/scripts/pop/number1.fnt",
+    "value": {
+      "depends": [
+        "f1ea97ca-3375-44e5-a93a-5e7c61c47600@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f1ea97ca-3375-44e5-a93a-5e7c61c47600": {
+    "url": "db://assets/resources/scripts/pop/number1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4fc4b335-7014-49e3-bada-12404787f159": {
+    "url": "db://assets/resources/scripts/pop/opensans-bold.fnt",
+    "value": {
+      "depends": [
+        "49220199-ebdd-4154-8f13-a12e3a75b692@f9941"
+      ]
+    },
+    "versionCode": 1
+  },
+  "33eeeb6e-bc8d-4f02-b4f5-24585c1a491d@6c48a": {
+    "url": "db://assets/resources/scripts/pop/1.png@6c48a",
+    "value": {
+      "depends": [
+        "33eeeb6e-bc8d-4f02-b4f5-24585c1a491d"
+      ]
+    },
+    "versionCode": 1
+  },
+  "439e2854-a886-4a42-8166-3c9274379494@6c48a": {
+    "url": "db://assets/resources/scripts/pop/number.png@6c48a",
+    "value": {
+      "depends": [
+        "439e2854-a886-4a42-8166-3c9274379494"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f1ea97ca-3375-44e5-a93a-5e7c61c47600@6c48a": {
+    "url": "db://assets/resources/scripts/pop/number1.png@6c48a",
+    "value": {
+      "depends": [
+        "f1ea97ca-3375-44e5-a93a-5e7c61c47600"
+      ]
+    },
+    "versionCode": 1
+  },
+  "33eeeb6e-bc8d-4f02-b4f5-24585c1a491d@f9941": {
+    "url": "db://assets/resources/scripts/pop/1.png@f9941",
+    "value": {
+      "depends": [
+        "33eeeb6e-bc8d-4f02-b4f5-24585c1a491d@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "49220199-ebdd-4154-8f13-a12e3a75b692": {
+    "url": "db://assets/resources/scripts/pop/opensans-bold.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "439e2854-a886-4a42-8166-3c9274379494@f9941": {
+    "url": "db://assets/resources/scripts/pop/number.png@f9941",
+    "value": {
+      "depends": [
+        "439e2854-a886-4a42-8166-3c9274379494@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "b4202023-3f3a-4857-bb08-c7a889c5e488": {
+    "url": "db://assets/resources/scripts/pop/pop.scene",
+    "value": {
+      "depends": [
+        "b4202023-3f3a-4857-bb08-c7a889c5e488",
+        "7d8f9b89-4fd1-4c9f-a3ab-38ec7cded7ca@f9941",
+        "439e2854-a886-4a42-8166-3c9274379494@f9941",
+        "cc8a789f-8bed-4a6c-a60f-f03a0135dfb5",
+        "d032ac98-05e1-4090-88bb-eb640dcb5fc1@b47c0",
+        "6f01cf7f-81bf-4a7e-bd5d-0afc19696480@b47c0"
+      ],
+      "dependScripts": [
+        "eaf499eb-1ed6-4d54-a721-308b25c2d29a",
+        "337d589c-9553-4fec-97bc-91199f418edf"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f1ea97ca-3375-44e5-a93a-5e7c61c47600@f9941": {
+    "url": "db://assets/resources/scripts/pop/number1.png@f9941",
+    "value": {
+      "depends": [
+        "f1ea97ca-3375-44e5-a93a-5e7c61c47600@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6b17d778-ac70-460e-b859-a7d0b5474e9e": {
+    "url": "db://assets/resources/spine/1/2505004.atlas",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "883ddc56-9c99-4003-9b3d-7df352e0b05d": {
+    "url": "db://assets/resources/spine/1/2505004.json",
+    "value": {
+      "depends": [
+        "f931f1fb-eb91-4079-93c1-af4fc65ff5b2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f931f1fb-eb91-4079-93c1-af4fc65ff5b2": {
+    "url": "db://assets/resources/spine/1/2505004.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "49220199-ebdd-4154-8f13-a12e3a75b692@6c48a": {
+    "url": "db://assets/resources/scripts/pop/opensans-bold.png@6c48a",
+    "value": {
+      "depends": [
+        "49220199-ebdd-4154-8f13-a12e3a75b692"
+      ]
+    },
+    "versionCode": 1
+  },
+  "5748868f-e737-4eda-a96d-c980eecf1c8b": {
+    "url": "db://assets/resources/spine/2/2405005.atlas",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "49220199-ebdd-4154-8f13-a12e3a75b692@f9941": {
+    "url": "db://assets/resources/scripts/pop/opensans-bold.png@f9941",
+    "value": {
+      "depends": [
+        "49220199-ebdd-4154-8f13-a12e3a75b692@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "ac3effc3-7e6a-4340-bd29-c336c4464eb8": {
+    "url": "db://assets/resources/spine/2/2405005.json",
+    "value": {
+      "depends": [
+        "d86b3475-b0dd-44d2-90d3-3b9b42fad577@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d86b3475-b0dd-44d2-90d3-3b9b42fad577": {
+    "url": "db://assets/resources/spine/2/2405005.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f931f1fb-eb91-4079-93c1-af4fc65ff5b2@6c48a": {
+    "url": "db://assets/resources/spine/1/2505004.png@6c48a",
+    "value": {
+      "depends": [
+        "f931f1fb-eb91-4079-93c1-af4fc65ff5b2"
+      ]
+    },
+    "versionCode": 1
+  },
+  "864fed01-b90b-48f4-8115-aa788eb20d88": {
+    "url": "db://assets/resources/spine/3/505010.atlas",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "f931f1fb-eb91-4079-93c1-af4fc65ff5b2@f9941": {
+    "url": "db://assets/resources/spine/1/2505004.png@f9941",
+    "value": {
+      "depends": [
+        "f931f1fb-eb91-4079-93c1-af4fc65ff5b2@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7240b583-a1b5-4c4c-90ed-ef9060b7c2f3": {
+    "url": "db://assets/resources/spine/3/505010.json",
+    "value": {
+      "depends": [
+        "8b78df34-cdaf-4699-b1ba-588f5a0ec790@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8b78df34-cdaf-4699-b1ba-588f5a0ec790": {
+    "url": "db://assets/resources/spine/3/505010.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "015ea0df-419c-429a-9216-b99395f30f1c": {
+    "url": "db://assets/resources/spine/4/505007.atlas",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "d86b3475-b0dd-44d2-90d3-3b9b42fad577@6c48a": {
+    "url": "db://assets/resources/spine/2/2405005.png@6c48a",
+    "value": {
+      "depends": [
+        "d86b3475-b0dd-44d2-90d3-3b9b42fad577"
+      ]
+    },
+    "versionCode": 1
+  },
+  "49a03844-765f-4a31-b1ff-a45209f40a9c": {
+    "url": "db://assets/resources/spine/4/505007.json",
+    "value": {
+      "depends": [
+        "4e403b17-e995-4574-97d8-9cd720c10a82@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "d86b3475-b0dd-44d2-90d3-3b9b42fad577@f9941": {
+    "url": "db://assets/resources/spine/2/2405005.png@f9941",
+    "value": {
+      "depends": [
+        "d86b3475-b0dd-44d2-90d3-3b9b42fad577@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4e403b17-e995-4574-97d8-9cd720c10a82": {
+    "url": "db://assets/resources/spine/4/505007.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "8b78df34-cdaf-4699-b1ba-588f5a0ec790@6c48a": {
+    "url": "db://assets/resources/spine/3/505010.png@6c48a",
+    "value": {
+      "depends": [
+        "8b78df34-cdaf-4699-b1ba-588f5a0ec790"
+      ]
+    },
+    "versionCode": 1
+  },
+  "6a3abd71-26d3-4c5e-8c10-98c4baa725db": {
+    "url": "db://assets/resources/spine/5/505006.atlas",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "c39ba743-6917-4ec2-bb1b-da97c548077b@6c48a": {
+    "url": "db://assets/resources/map/12.19.png@6c48a",
+    "value": {
+      "depends": [
+        "c39ba743-6917-4ec2-bb1b-da97c548077b"
+      ]
+    },
+    "versionCode": 1
+  },
+  "8b78df34-cdaf-4699-b1ba-588f5a0ec790@f9941": {
+    "url": "db://assets/resources/spine/3/505010.png@f9941",
+    "value": {
+      "depends": [
+        "8b78df34-cdaf-4699-b1ba-588f5a0ec790@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "f331cb1c-1cf8-4b0e-922a-2f9f03146f57": {
+    "url": "db://assets/resources/spine/5/505006.json",
+    "value": {
+      "depends": [
+        "7467025f-229b-45b4-be4d-a94f9279d036@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7467025f-229b-45b4-be4d-a94f9279d036": {
+    "url": "db://assets/resources/spine/5/505006.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "2a00510f-d601-485a-bb80-65b2c7e0e6e9": {
+    "url": "db://assets/resources/spine/6/505004.atlas",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "4e403b17-e995-4574-97d8-9cd720c10a82@6c48a": {
+    "url": "db://assets/resources/spine/4/505007.png@6c48a",
+    "value": {
+      "depends": [
+        "4e403b17-e995-4574-97d8-9cd720c10a82"
+      ]
+    },
+    "versionCode": 1
+  },
+  "9530365f-17fd-4b7e-a296-638ca7909f1b": {
+    "url": "db://assets/resources/spine/6/505004.json",
+    "value": {
+      "depends": [
+        "7e8ab95b-a6b8-4ca6-9588-85e1673f50cd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "4e403b17-e995-4574-97d8-9cd720c10a82@f9941": {
+    "url": "db://assets/resources/spine/4/505007.png@f9941",
+    "value": {
+      "depends": [
+        "4e403b17-e995-4574-97d8-9cd720c10a82@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "7e8ab95b-a6b8-4ca6-9588-85e1673f50cd": {
+    "url": "db://assets/resources/spine/6/505004.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7467025f-229b-45b4-be4d-a94f9279d036@6c48a": {
+    "url": "db://assets/resources/spine/5/505006.png@6c48a",
+    "value": {
+      "depends": [
+        "7467025f-229b-45b4-be4d-a94f9279d036"
+      ]
+    },
+    "versionCode": 1
+  },
+  "a39e82b9-a067-4e23-bd0a-227dde5a7723": {
+    "url": "db://assets/resources/spine/boss/1/boss1.atlas",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7467025f-229b-45b4-be4d-a94f9279d036@f9941": {
+    "url": "db://assets/resources/spine/5/505006.png@f9941",
+    "value": {
+      "depends": [
+        "7467025f-229b-45b4-be4d-a94f9279d036@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "20f812c7-2295-4706-8c3c-98d27b8222e9": {
+    "url": "db://assets/resources/spine/boss/1/boss1.json",
+    "value": {
+      "depends": [
+        "dc5a573f-1c0a-4d69-94de-ae4f2e3ec0d7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dc5a573f-1c0a-4d69-94de-ae4f2e3ec0d7": {
+    "url": "db://assets/resources/spine/boss/1/boss1.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "1d71a40c-9789-4d73-a111-a5df0f7436b4": {
+    "url": "db://assets/resources/spine/boss/2/baize.atlas",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7e8ab95b-a6b8-4ca6-9588-85e1673f50cd@6c48a": {
+    "url": "db://assets/resources/spine/6/505004.png@6c48a",
+    "value": {
+      "depends": [
+        "7e8ab95b-a6b8-4ca6-9588-85e1673f50cd"
+      ]
+    },
+    "versionCode": 1
+  },
+  "02cac01b-3567-4318-bb7b-0d29ae6323eb": {
+    "url": "db://assets/resources/spine/boss/2/baize.json",
+    "value": {
+      "depends": [
+        "0facfb45-4b31-4dc4-9e8d-2a464ce31320@6c48a",
+        "cc8c1666-8145-453b-b8df-d649caa03ac5@6c48a",
+        "2426a692-9fcf-4ede-b44d-00b103d6153a@6c48a",
+        "743f5a6e-7ec1-46fc-a4a0-67589a9b6204@6c48a",
+        "755e6404-7043-4cd9-8fb3-2959d08f400c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "0facfb45-4b31-4dc4-9e8d-2a464ce31320": {
+    "url": "db://assets/resources/spine/boss/2/baize.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "7e8ab95b-a6b8-4ca6-9588-85e1673f50cd@f9941": {
+    "url": "db://assets/resources/spine/6/505004.png@f9941",
+    "value": {
+      "depends": [
+        "7e8ab95b-a6b8-4ca6-9588-85e1673f50cd@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cc8c1666-8145-453b-b8df-d649caa03ac5": {
+    "url": "db://assets/resources/spine/boss/2/baize_2.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "dc5a573f-1c0a-4d69-94de-ae4f2e3ec0d7@6c48a": {
+    "url": "db://assets/resources/spine/boss/1/boss1.png@6c48a",
+    "value": {
+      "depends": [
+        "dc5a573f-1c0a-4d69-94de-ae4f2e3ec0d7"
+      ]
+    },
+    "versionCode": 1
+  },
+  "dc5a573f-1c0a-4d69-94de-ae4f2e3ec0d7@f9941": {
+    "url": "db://assets/resources/spine/boss/1/boss1.png@f9941",
+    "value": {
+      "depends": [
+        "dc5a573f-1c0a-4d69-94de-ae4f2e3ec0d7@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cc8c1666-8145-453b-b8df-d649caa03ac5@6c48a": {
+    "url": "db://assets/resources/spine/boss/2/baize_2.png@6c48a",
+    "value": {
+      "depends": [
+        "cc8c1666-8145-453b-b8df-d649caa03ac5"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2426a692-9fcf-4ede-b44d-00b103d6153a": {
+    "url": "db://assets/resources/spine/boss/2/baize_3.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "743f5a6e-7ec1-46fc-a4a0-67589a9b6204": {
+    "url": "db://assets/resources/spine/boss/2/baize_4.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0facfb45-4b31-4dc4-9e8d-2a464ce31320@6c48a": {
+    "url": "db://assets/resources/spine/boss/2/baize.png@6c48a",
+    "value": {
+      "depends": [
+        "0facfb45-4b31-4dc4-9e8d-2a464ce31320"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2426a692-9fcf-4ede-b44d-00b103d6153a@6c48a": {
+    "url": "db://assets/resources/spine/boss/2/baize_3.png@6c48a",
+    "value": {
+      "depends": [
+        "2426a692-9fcf-4ede-b44d-00b103d6153a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "cc8c1666-8145-453b-b8df-d649caa03ac5@f9941": {
+    "url": "db://assets/resources/spine/boss/2/baize_2.png@f9941",
+    "value": {
+      "depends": [
+        "cc8c1666-8145-453b-b8df-d649caa03ac5@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "755e6404-7043-4cd9-8fb3-2959d08f400c": {
+    "url": "db://assets/resources/spine/boss/2/baize_5.png",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "0facfb45-4b31-4dc4-9e8d-2a464ce31320@f9941": {
+    "url": "db://assets/resources/spine/boss/2/baize.png@f9941",
+    "value": {
+      "depends": [
+        "0facfb45-4b31-4dc4-9e8d-2a464ce31320@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "66a1da17-d7b4-41ec-a6cb-69db7f75b8da": {
+    "url": "db://assets/resources/scripts/pop/dmg/DmgText/dmgtext.anim",
+    "value": {
+      "depends": []
+    },
+    "versionCode": 1
+  },
+  "743f5a6e-7ec1-46fc-a4a0-67589a9b6204@6c48a": {
+    "url": "db://assets/resources/spine/boss/2/baize_4.png@6c48a",
+    "value": {
+      "depends": [
+        "743f5a6e-7ec1-46fc-a4a0-67589a9b6204"
+      ]
+    },
+    "versionCode": 1
+  },
+  "2426a692-9fcf-4ede-b44d-00b103d6153a@f9941": {
+    "url": "db://assets/resources/spine/boss/2/baize_3.png@f9941",
+    "value": {
+      "depends": [
+        "2426a692-9fcf-4ede-b44d-00b103d6153a@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "755e6404-7043-4cd9-8fb3-2959d08f400c@6c48a": {
+    "url": "db://assets/resources/spine/boss/2/baize_5.png@6c48a",
+    "value": {
+      "depends": [
+        "755e6404-7043-4cd9-8fb3-2959d08f400c"
+      ]
+    },
+    "versionCode": 1
+  },
+  "755e6404-7043-4cd9-8fb3-2959d08f400c@f9941": {
+    "url": "db://assets/resources/spine/boss/2/baize_5.png@f9941",
+    "value": {
+      "depends": [
+        "755e6404-7043-4cd9-8fb3-2959d08f400c@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "743f5a6e-7ec1-46fc-a4a0-67589a9b6204@f9941": {
+    "url": "db://assets/resources/spine/boss/2/baize_4.png@f9941",
+    "value": {
+      "depends": [
+        "743f5a6e-7ec1-46fc-a4a0-67589a9b6204@6c48a"
+      ]
+    },
+    "versionCode": 1
+  },
+  "c39ba743-6917-4ec2-bb1b-da97c548077b@f9941": {
+    "url": "db://assets/resources/map/12.19.png@f9941",
+    "value": {
+      "depends": [
+        "c39ba743-6917-4ec2-bb1b-da97c548077b@6c48a"
+      ]
+    },
+    "versionCode": 1
+  }
+}

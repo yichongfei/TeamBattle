@@ -1,0 +1,3223 @@
+[
+  {
+    "__type__": "cc.SceneAsset",
+    "_name": "fightScene",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_native": "",
+    "scene": {
+      "__id__": 1
+    }
+  },
+  {
+    "__type__": "cc.Scene",
+    "_name": "fightScene",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": null,
+    "_children": [
+      {
+        "__id__": 2
+      }
+    ],
+    "_active": true,
+    "_components": [],
+    "_prefab": {
+      "__id__": 108
+    },
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 1073741824,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "autoReleaseAssets": false,
+    "_globals": {
+      "__id__": 109
+    },
+    "_id": "96eced35-a6f6-4622-a5e8-4e119d786f65"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Canvas",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 1
+    },
+    "_children": [
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 7
+      },
+      {
+        "__id__": 12
+      },
+      {
+        "__id__": 10
+      },
+      {
+        "__id__": 15
+      },
+      {
+        "__id__": 18
+      },
+      {
+        "__id__": 21
+      },
+      {
+        "__id__": 33
+      },
+      {
+        "__id__": 45
+      },
+      {
+        "__id__": 57
+      },
+      {
+        "__id__": 69
+      },
+      {
+        "__id__": 81
+      },
+      {
+        "__id__": 93
+      }
+    ],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 105
+      },
+      {
+        "__id__": 106
+      },
+      {
+        "__id__": 107
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 360,
+      "y": 640,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "beI88Z2HpFELqR4T5EMHpg"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Camera",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 1000
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "ebFwiq8gBFaYpqYbdoDODe"
+  },
+  {
+    "__type__": "cc.Camera",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 3
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_projection": 0,
+    "_priority": 0,
+    "_fov": 45,
+    "_fovAxis": 0,
+    "_orthoHeight": 640,
+    "_near": 0,
+    "_far": 2000,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 0,
+      "g": 0,
+      "b": 0,
+      "a": 255
+    },
+    "_depth": 1,
+    "_stencil": 0,
+    "_clearFlags": 7,
+    "_rect": {
+      "__type__": "cc.Rect",
+      "x": 0,
+      "y": 0,
+      "width": 1,
+      "height": 1
+    },
+    "_aperture": 19,
+    "_shutter": 7,
+    "_iso": 0,
+    "_screenScale": 1,
+    "_visibility": 1108344832,
+    "_targetTexture": null,
+    "_postProcess": null,
+    "_usePostProcess": false,
+    "_cameraType": -1,
+    "_trackingType": 0,
+    "_id": "63WIch3o5BEYRlXzTT0oWc"
+  },
+  {
+    "__type__": "e88ae3VKfxNd6lTwrJkUokQ",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 3
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "playerSquadManager": {
+      "__id__": 6
+    },
+    "bossManager": {
+      "__id__": 9
+    },
+    "positionLerpFactor": 0.08,
+    "padding": 0.2,
+    "minOrthoHeight": 300,
+    "maxOrthoHeight": 1200,
+    "_id": "0dxMHaLN5PwpsOHB3NoMnF"
+  },
+  {
+    "__type__": "0e505NVD0ZFtKFlPD6UaiV9",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 7
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "e8SJV30QxLnqI7p9t/92ig"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "PlayerSquadManagerNode",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 8
+      },
+      {
+        "__id__": 6
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "b5GLjIJVdAE5MPcwBZcMIS"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 7
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 100
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": "57XNV6dbZC+b6p9HFaIJHf"
+  },
+  {
+    "__type__": "4d16fz/gFJFia5LwsoJHhA/",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 10
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "bossPrefab": {
+      "__uuid__": "2d2beb31-5f77-46c7-8465-acef8ae0f318",
+      "__expectedType__": "cc.Prefab"
+    },
+    "spawnAreaNode": {
+      "__id__": 12
+    },
+    "spawnInterval": 10,
+    "maxBosses": 1,
+    "_id": "b3dx5IRatHNKeS5IeZVUJm"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "BossManager",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 11
+      },
+      {
+        "__id__": 9
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "46Q4Eca29AN4i9Pc2u+Bg5"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 10
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 100
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": "14Xu4bwUhO54H0q9ds+DEg"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Map",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 13
+      },
+      {
+        "__id__": 14
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "9cJQy1TGBF+48JAQzeebFc"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 12
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 6700,
+      "height": 4000
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": "dd68mB0b9CQ6N2DOFlH8Lu"
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 12
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_spriteFrame": {
+      "__uuid__": "c39ba743-6917-4ec2-bb1b-da97c548077b@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    "_type": 0,
+    "_fillType": 0,
+    "_sizeMode": 1,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_useGrayscale": false,
+    "_atlas": null,
+    "_id": "0asdMxpGJM+4iZ2Xgf+RsJ"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "PopManager",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 16
+      },
+      {
+        "__id__": 17
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 2701.775,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "6eDNI0U2ZHZYrGU9phcJto"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 15
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 165,
+      "height": 143
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": "f4Fb4xV7ROK5yBUdwu+0lm"
+  },
+  {
+    "__type__": "337d5iclVNP7Je8kRmfQY7f",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 15
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_spriteFrame": {
+      "__uuid__": "f1ea97ca-3375-44e5-a93a-5e7c61c47600@f9941",
+      "__expectedType__": "cc.SpriteFrame"
+    },
+    "_type": 0,
+    "_fillType": 0,
+    "_sizeMode": 1,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_useGrayscale": false,
+    "_atlas": null,
+    "_fonts": [
+      {
+        "__uuid__": "aa6a38fd-5385-4383-9cce-a084a5daf58b",
+        "__expectedType__": "cc.BitmapFont"
+      }
+    ],
+    "_spacingX": 0,
+    "maxAnimations": 100,
+    "_id": "1apdMnN4JN5qBOIfXsaPCs"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "DamageControl",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 19
+      },
+      {
+        "__id__": 20
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "78k/79/FBMQa4InW2P/tVz"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 18
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 100,
+      "height": 100
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": "4dWnPtov5N3KnrbDudBiaw"
+  },
+  {
+    "__type__": "8378bvItpNLRIY2+SlEub/p",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 18
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "damagePopup": {
+      "__id__": 17
+    },
+    "_id": "51XCfCGIlCSKTmCiPAjym7"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "MeleeDPS_Character",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 22
+      },
+      {
+        "__id__": 23
+      },
+      {
+        "__id__": 24
+      },
+      {
+        "__id__": 28
+      },
+      {
+        "__id__": 25
+      },
+      {
+        "__id__": 29
+      },
+      {
+        "__id__": 30
+      },
+      {
+        "__id__": 27
+      },
+      {
+        "__id__": 31
+      },
+      {
+        "__id__": 26
+      },
+      {
+        "__id__": 32
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -97.389,
+      "y": -14.183,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "01BzE4WuhB4KeWn1/Mjfvq"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 86.22000122070312,
+      "height": 91.97000122070312
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5207608546762295,
+      "y": 0.08698488522145569
+    },
+    "_id": "8cJTMJnWhHc7KZh/8DXTF1"
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_skeletonData": {
+      "__uuid__": "883ddc56-9c99-4003-9b3d-7df352e0b05d",
+      "__expectedType__": "sp.SkeletonData"
+    },
+    "defaultSkin": "default",
+    "defaultAnimation": "<None>",
+    "_premultipliedAlpha": true,
+    "_timeScale": 1,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
+    "_sockets": [],
+    "_useTint": false,
+    "_debugMesh": false,
+    "_debugBones": false,
+    "_debugSlots": false,
+    "_enableBatch": true,
+    "loop": true,
+    "_id": "aejkhQiX5IlpubZ/2eTAuN"
+  },
+  {
+    "__type__": "f7773JLPgJNQZ/1RGaeMtE4",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 25
+    },
+    "targeting": {
+      "__id__": 26
+    },
+    "_id": "19WmEj1CVErrTAy/2UFrsU"
+  },
+  {
+    "__type__": "49443RGWpdMZ7A/7H7TLQcN",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "strength": 10,
+    "agility": 10,
+    "intellect": 10,
+    "maxHealth": 100,
+    "moveSpeed": 150,
+    "attackPower": 10,
+    "skillPower": 10,
+    "attackSpeed": 1,
+    "attackRange": 150,
+    "armor": 5,
+    "magicResist": 5,
+    "critChance": 0.05,
+    "critDamageMultiplier": 1.5,
+    "lifesteal": 0.1,
+    "dodgeChance": 0.05,
+    "parryChance": 0.05,
+    "blockChance": 0,
+    "blockAmount": 0.3,
+    "cooldownReduction": 0,
+    "maxMana": 100,
+    "manaRegen": 1,
+    "_id": "a74y9x9GdB+bwaN/V3Pjum"
+  },
+  {
+    "__type__": "73ce035I8tLm5RUOZvfcSKL",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": {
+      "__id__": 27
+    },
+    "bossManagerComponent": {
+      "__id__": 9
+    },
+    "healRadius": 1000,
+    "_id": "a6sPJnRwpBH5+8F1NMRC9K"
+  },
+  {
+    "__type__": "9337asS5YRBv4eLHd7jpH+P",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": 0,
+    "preferredMinDistance": 200,
+    "preferredMaxDistance": 400,
+    "threatModifier": 1.5,
+    "healTriggerThreshold": 0.8,
+    "_id": "1fCpQ+8jpFy7lqYkn/kNT6"
+  },
+  {
+    "__type__": "9261acd5xtAyrVMhzK6GdCc",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "a86DZGvdhNfaJnfVXgyhW+"
+  },
+  {
+    "__type__": "d5c3dSM+GBN5JGOa0N1IYCE",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 25
+    },
+    "_id": "ceDV4TRexFWbJFzwppeLs/"
+  },
+  {
+    "__type__": "dc79bsKUmZArpmVr+vX0DjR",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 25
+    },
+    "_id": "ed/X6Mdr9J2ocevbzZGNc8"
+  },
+  {
+    "__type__": "e38da2dop5BvrnWlzdqk3rn",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "77eeFjrFFMFrquVqecbgW8"
+  },
+  {
+    "__type__": "dc7e85IpHFNo75bR/7hh3to",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 21
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 25
+    },
+    "health": {
+      "__id__": 29
+    },
+    "movement": {
+      "__id__": 30
+    },
+    "targeting": {
+      "__id__": 26
+    },
+    "attack": {
+      "__id__": 24
+    },
+    "skills": {
+      "__id__": 31
+    },
+    "role": {
+      "__id__": 27
+    },
+    "stageCenter": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "maxDistanceFromCenter": 500,
+    "_id": "1f3qdd081PLaGUJc+uPNrr"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "MeleeDPS_Character-001",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 34
+      },
+      {
+        "__id__": 35
+      },
+      {
+        "__id__": 36
+      },
+      {
+        "__id__": 40
+      },
+      {
+        "__id__": 37
+      },
+      {
+        "__id__": 41
+      },
+      {
+        "__id__": 42
+      },
+      {
+        "__id__": 39
+      },
+      {
+        "__id__": 43
+      },
+      {
+        "__id__": 38
+      },
+      {
+        "__id__": 44
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -97.389,
+      "y": -14.183,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "76B+Ss1wtENYaIxRN4ZuFq"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 86.22000122070312,
+      "height": 91.97000122070312
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5207608546762295,
+      "y": 0.08698488522145569
+    },
+    "_id": "6759TxvQJDt55rJmekP7mx"
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_skeletonData": {
+      "__uuid__": "883ddc56-9c99-4003-9b3d-7df352e0b05d",
+      "__expectedType__": "sp.SkeletonData"
+    },
+    "defaultSkin": "default",
+    "defaultAnimation": "<None>",
+    "_premultipliedAlpha": true,
+    "_timeScale": 1,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
+    "_sockets": [],
+    "_useTint": false,
+    "_debugMesh": false,
+    "_debugBones": false,
+    "_debugSlots": false,
+    "_enableBatch": true,
+    "loop": true,
+    "_id": "62Dkbb8vJFCIslJfNcjm6Z"
+  },
+  {
+    "__type__": "f7773JLPgJNQZ/1RGaeMtE4",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 37
+    },
+    "targeting": {
+      "__id__": 38
+    },
+    "_id": "4aEsNALKZGAINUfwP6dWbK"
+  },
+  {
+    "__type__": "49443RGWpdMZ7A/7H7TLQcN",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "strength": 10,
+    "agility": 10,
+    "intellect": 10,
+    "maxHealth": 100,
+    "moveSpeed": 150,
+    "attackPower": 10,
+    "skillPower": 10,
+    "attackSpeed": 1,
+    "attackRange": 150,
+    "armor": 5,
+    "magicResist": 5,
+    "critChance": 0.05,
+    "critDamageMultiplier": 1.5,
+    "lifesteal": 0.1,
+    "dodgeChance": 0.05,
+    "parryChance": 0.05,
+    "blockChance": 0,
+    "blockAmount": 0.3,
+    "cooldownReduction": 0,
+    "maxMana": 100,
+    "manaRegen": 1,
+    "_id": "02QAdS3TBCkolBAkjjfi9G"
+  },
+  {
+    "__type__": "73ce035I8tLm5RUOZvfcSKL",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": {
+      "__id__": 39
+    },
+    "bossManagerComponent": {
+      "__id__": 9
+    },
+    "healRadius": 1000,
+    "_id": "b4Qo/25TFInqzYGJMk9z6Y"
+  },
+  {
+    "__type__": "9337asS5YRBv4eLHd7jpH+P",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": 0,
+    "preferredMinDistance": 200,
+    "preferredMaxDistance": 400,
+    "threatModifier": 1.5,
+    "healTriggerThreshold": 0.8,
+    "_id": "1fwVNOlmtIbLx+4wJNTjsL"
+  },
+  {
+    "__type__": "9261acd5xtAyrVMhzK6GdCc",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "6bYklEzP9Kv7nKWK94lGVA"
+  },
+  {
+    "__type__": "d5c3dSM+GBN5JGOa0N1IYCE",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 37
+    },
+    "_id": "c8tzRwepBNr7WSY1ONAaDp"
+  },
+  {
+    "__type__": "dc79bsKUmZArpmVr+vX0DjR",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 37
+    },
+    "_id": "7d1GNeC5xCNLJOnBLyA0VK"
+  },
+  {
+    "__type__": "e38da2dop5BvrnWlzdqk3rn",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "68kTbbUpVBW6EhHd2JtzsZ"
+  },
+  {
+    "__type__": "dc7e85IpHFNo75bR/7hh3to",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 33
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 37
+    },
+    "health": {
+      "__id__": 41
+    },
+    "movement": {
+      "__id__": 42
+    },
+    "targeting": {
+      "__id__": 38
+    },
+    "attack": {
+      "__id__": 36
+    },
+    "skills": {
+      "__id__": 43
+    },
+    "role": {
+      "__id__": 39
+    },
+    "stageCenter": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "maxDistanceFromCenter": 500,
+    "_id": "1aF7lOeJFLSY1nSxFUE18n"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "MeleeDPS_Character-002",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 46
+      },
+      {
+        "__id__": 47
+      },
+      {
+        "__id__": 48
+      },
+      {
+        "__id__": 52
+      },
+      {
+        "__id__": 49
+      },
+      {
+        "__id__": 53
+      },
+      {
+        "__id__": 54
+      },
+      {
+        "__id__": 51
+      },
+      {
+        "__id__": 55
+      },
+      {
+        "__id__": 50
+      },
+      {
+        "__id__": 56
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -97.389,
+      "y": -14.183,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "29QVEdYe1HsLgTNgxJLpQl"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 86.22000122070312,
+      "height": 91.97000122070312
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5207608546762295,
+      "y": 0.08698488522145569
+    },
+    "_id": "0etXIpHXZK95slBVUL1ypx"
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_skeletonData": {
+      "__uuid__": "883ddc56-9c99-4003-9b3d-7df352e0b05d",
+      "__expectedType__": "sp.SkeletonData"
+    },
+    "defaultSkin": "default",
+    "defaultAnimation": "<None>",
+    "_premultipliedAlpha": true,
+    "_timeScale": 1,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
+    "_sockets": [],
+    "_useTint": false,
+    "_debugMesh": false,
+    "_debugBones": false,
+    "_debugSlots": false,
+    "_enableBatch": true,
+    "loop": true,
+    "_id": "e6ep/KkcZF84z6cjTy8/0y"
+  },
+  {
+    "__type__": "f7773JLPgJNQZ/1RGaeMtE4",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 49
+    },
+    "targeting": {
+      "__id__": 50
+    },
+    "_id": "7bKgSDONBLHKuLJ/5KlqU4"
+  },
+  {
+    "__type__": "49443RGWpdMZ7A/7H7TLQcN",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "strength": 10,
+    "agility": 10,
+    "intellect": 10,
+    "maxHealth": 100,
+    "moveSpeed": 150,
+    "attackPower": 10,
+    "skillPower": 10,
+    "attackSpeed": 1,
+    "attackRange": 150,
+    "armor": 5,
+    "magicResist": 5,
+    "critChance": 0.05,
+    "critDamageMultiplier": 1.5,
+    "lifesteal": 0.1,
+    "dodgeChance": 0.05,
+    "parryChance": 0.05,
+    "blockChance": 0,
+    "blockAmount": 0.3,
+    "cooldownReduction": 0,
+    "maxMana": 100,
+    "manaRegen": 1,
+    "_id": "20fCsFHAZFAIDL8u7GlZoQ"
+  },
+  {
+    "__type__": "73ce035I8tLm5RUOZvfcSKL",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": {
+      "__id__": 51
+    },
+    "bossManagerComponent": {
+      "__id__": 9
+    },
+    "healRadius": 1000,
+    "_id": "7fqY7garxMrIDrQq+Gue6b"
+  },
+  {
+    "__type__": "9337asS5YRBv4eLHd7jpH+P",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": 0,
+    "preferredMinDistance": 200,
+    "preferredMaxDistance": 400,
+    "threatModifier": 1.5,
+    "healTriggerThreshold": 0.8,
+    "_id": "04qD2j2clAXIFWxmUYEB02"
+  },
+  {
+    "__type__": "9261acd5xtAyrVMhzK6GdCc",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "dcn57bu7FEo6QI3ED9Y027"
+  },
+  {
+    "__type__": "d5c3dSM+GBN5JGOa0N1IYCE",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 49
+    },
+    "_id": "cac7oAwBRDy4fmYve50sqU"
+  },
+  {
+    "__type__": "dc79bsKUmZArpmVr+vX0DjR",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 49
+    },
+    "_id": "25iG1sCPtP9LH1bytSnW1z"
+  },
+  {
+    "__type__": "e38da2dop5BvrnWlzdqk3rn",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "7a3Ecj9U1NLZ8xUj4qdPsW"
+  },
+  {
+    "__type__": "dc7e85IpHFNo75bR/7hh3to",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 45
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 49
+    },
+    "health": {
+      "__id__": 53
+    },
+    "movement": {
+      "__id__": 54
+    },
+    "targeting": {
+      "__id__": 50
+    },
+    "attack": {
+      "__id__": 48
+    },
+    "skills": {
+      "__id__": 55
+    },
+    "role": {
+      "__id__": 51
+    },
+    "stageCenter": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "maxDistanceFromCenter": 500,
+    "_id": "14PcPHpv9BY7Rn5ufErqal"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "MeleeDPS_Character-003",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 58
+      },
+      {
+        "__id__": 59
+      },
+      {
+        "__id__": 60
+      },
+      {
+        "__id__": 64
+      },
+      {
+        "__id__": 61
+      },
+      {
+        "__id__": 65
+      },
+      {
+        "__id__": 66
+      },
+      {
+        "__id__": 63
+      },
+      {
+        "__id__": 67
+      },
+      {
+        "__id__": 62
+      },
+      {
+        "__id__": 68
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -97.389,
+      "y": -14.183,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "d5sxfZovNNrYPkjNBD5zBW"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 86.22000122070312,
+      "height": 91.97000122070312
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5207608546762295,
+      "y": 0.08698488522145569
+    },
+    "_id": "2cqgj1eRhJsK/O0Dh11dWb"
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_skeletonData": {
+      "__uuid__": "883ddc56-9c99-4003-9b3d-7df352e0b05d",
+      "__expectedType__": "sp.SkeletonData"
+    },
+    "defaultSkin": "default",
+    "defaultAnimation": "<None>",
+    "_premultipliedAlpha": true,
+    "_timeScale": 1,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
+    "_sockets": [],
+    "_useTint": false,
+    "_debugMesh": false,
+    "_debugBones": false,
+    "_debugSlots": false,
+    "_enableBatch": true,
+    "loop": true,
+    "_id": "55GM+1BqtCOJaDfq6jzFIJ"
+  },
+  {
+    "__type__": "f7773JLPgJNQZ/1RGaeMtE4",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 61
+    },
+    "targeting": {
+      "__id__": 62
+    },
+    "_id": "70MuGrmfpCkpeXXONf8DnM"
+  },
+  {
+    "__type__": "49443RGWpdMZ7A/7H7TLQcN",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "strength": 10,
+    "agility": 10,
+    "intellect": 10,
+    "maxHealth": 100,
+    "moveSpeed": 150,
+    "attackPower": 10,
+    "skillPower": 10,
+    "attackSpeed": 1,
+    "attackRange": 150,
+    "armor": 5,
+    "magicResist": 5,
+    "critChance": 0.05,
+    "critDamageMultiplier": 1.5,
+    "lifesteal": 0.1,
+    "dodgeChance": 0.05,
+    "parryChance": 0.05,
+    "blockChance": 0,
+    "blockAmount": 0.3,
+    "cooldownReduction": 0,
+    "maxMana": 100,
+    "manaRegen": 1,
+    "_id": "9bZVxuaslHEJlPOoh+zyIo"
+  },
+  {
+    "__type__": "73ce035I8tLm5RUOZvfcSKL",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": {
+      "__id__": 63
+    },
+    "bossManagerComponent": {
+      "__id__": 9
+    },
+    "healRadius": 1000,
+    "_id": "d2VlUz3MJMIq7z31pO/oz+"
+  },
+  {
+    "__type__": "9337asS5YRBv4eLHd7jpH+P",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": 0,
+    "preferredMinDistance": 200,
+    "preferredMaxDistance": 400,
+    "threatModifier": 1.5,
+    "healTriggerThreshold": 0.8,
+    "_id": "90kZRDu4tOD5wjgytFWUY7"
+  },
+  {
+    "__type__": "9261acd5xtAyrVMhzK6GdCc",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "bbQnLIufBP372sf0mgcYg7"
+  },
+  {
+    "__type__": "d5c3dSM+GBN5JGOa0N1IYCE",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 61
+    },
+    "_id": "15Z5I89ipNZYfnQkc8nBrp"
+  },
+  {
+    "__type__": "dc79bsKUmZArpmVr+vX0DjR",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 61
+    },
+    "_id": "a2lCuVtl5JmqSGFfMwc5YA"
+  },
+  {
+    "__type__": "e38da2dop5BvrnWlzdqk3rn",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "behtPwJzJLhoVitrUKRm7z"
+  },
+  {
+    "__type__": "dc7e85IpHFNo75bR/7hh3to",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 57
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 61
+    },
+    "health": {
+      "__id__": 65
+    },
+    "movement": {
+      "__id__": 66
+    },
+    "targeting": {
+      "__id__": 62
+    },
+    "attack": {
+      "__id__": 60
+    },
+    "skills": {
+      "__id__": 67
+    },
+    "role": {
+      "__id__": 63
+    },
+    "stageCenter": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "maxDistanceFromCenter": 500,
+    "_id": "59ZBOsPkdI7IhMS7pQF/SC"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "MeleeDPS_Character-004",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 70
+      },
+      {
+        "__id__": 71
+      },
+      {
+        "__id__": 72
+      },
+      {
+        "__id__": 76
+      },
+      {
+        "__id__": 73
+      },
+      {
+        "__id__": 77
+      },
+      {
+        "__id__": 78
+      },
+      {
+        "__id__": 75
+      },
+      {
+        "__id__": 79
+      },
+      {
+        "__id__": 74
+      },
+      {
+        "__id__": 80
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -97.389,
+      "y": -14.183,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "d9E4pGrnxHApvjlItEXTQU"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 86.22000122070312,
+      "height": 91.97000122070312
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5207608546762295,
+      "y": 0.08698488522145569
+    },
+    "_id": "7fGt09olhE/pB+G2boO+Ry"
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_skeletonData": {
+      "__uuid__": "883ddc56-9c99-4003-9b3d-7df352e0b05d",
+      "__expectedType__": "sp.SkeletonData"
+    },
+    "defaultSkin": "default",
+    "defaultAnimation": "<None>",
+    "_premultipliedAlpha": true,
+    "_timeScale": 1,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
+    "_sockets": [],
+    "_useTint": false,
+    "_debugMesh": false,
+    "_debugBones": false,
+    "_debugSlots": false,
+    "_enableBatch": true,
+    "loop": true,
+    "_id": "13uPEYvzZCAboW0G8/vFkL"
+  },
+  {
+    "__type__": "f7773JLPgJNQZ/1RGaeMtE4",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 73
+    },
+    "targeting": {
+      "__id__": 74
+    },
+    "_id": "13OXI14sZCo6L0W2LzQmqu"
+  },
+  {
+    "__type__": "49443RGWpdMZ7A/7H7TLQcN",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "strength": 10,
+    "agility": 10,
+    "intellect": 10,
+    "maxHealth": 100,
+    "moveSpeed": 150,
+    "attackPower": 10,
+    "skillPower": 10,
+    "attackSpeed": 1,
+    "attackRange": 150,
+    "armor": 5,
+    "magicResist": 5,
+    "critChance": 0.05,
+    "critDamageMultiplier": 1.5,
+    "lifesteal": 0.1,
+    "dodgeChance": 0.05,
+    "parryChance": 0.05,
+    "blockChance": 0,
+    "blockAmount": 0.3,
+    "cooldownReduction": 0,
+    "maxMana": 100,
+    "manaRegen": 1,
+    "_id": "28UDemG89PcbmK3xL61M/E"
+  },
+  {
+    "__type__": "73ce035I8tLm5RUOZvfcSKL",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": {
+      "__id__": 75
+    },
+    "bossManagerComponent": {
+      "__id__": 9
+    },
+    "healRadius": 1000,
+    "_id": "a1TuCqHaVON6St+pQ7YPgi"
+  },
+  {
+    "__type__": "9337asS5YRBv4eLHd7jpH+P",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": 0,
+    "preferredMinDistance": 200,
+    "preferredMaxDistance": 400,
+    "threatModifier": 1.5,
+    "healTriggerThreshold": 0.8,
+    "_id": "2e/L5wgwlFIq+5nD2hxhoT"
+  },
+  {
+    "__type__": "9261acd5xtAyrVMhzK6GdCc",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "1e/hv1bA5PDaV/b5vBVKaB"
+  },
+  {
+    "__type__": "d5c3dSM+GBN5JGOa0N1IYCE",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 73
+    },
+    "_id": "91zI/lyeNDR4z/Y2GaWQBR"
+  },
+  {
+    "__type__": "dc79bsKUmZArpmVr+vX0DjR",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 73
+    },
+    "_id": "9amvEfzzxMqJMYIICiMZLM"
+  },
+  {
+    "__type__": "e38da2dop5BvrnWlzdqk3rn",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "9abl5YTbBLVp7EiuS50YWF"
+  },
+  {
+    "__type__": "dc7e85IpHFNo75bR/7hh3to",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 69
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 73
+    },
+    "health": {
+      "__id__": 77
+    },
+    "movement": {
+      "__id__": 78
+    },
+    "targeting": {
+      "__id__": 74
+    },
+    "attack": {
+      "__id__": 72
+    },
+    "skills": {
+      "__id__": 79
+    },
+    "role": {
+      "__id__": 75
+    },
+    "stageCenter": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "maxDistanceFromCenter": 500,
+    "_id": "40/spXLD5LW5mf7FHcfGtU"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "MeleeDPS_Character-005",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 82
+      },
+      {
+        "__id__": 83
+      },
+      {
+        "__id__": 84
+      },
+      {
+        "__id__": 88
+      },
+      {
+        "__id__": 85
+      },
+      {
+        "__id__": 89
+      },
+      {
+        "__id__": 90
+      },
+      {
+        "__id__": 87
+      },
+      {
+        "__id__": 91
+      },
+      {
+        "__id__": 86
+      },
+      {
+        "__id__": 92
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -97.389,
+      "y": -14.183,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "2aqtAVUeBC2rOAS8ylXufg"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 81
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 86.22000122070312,
+      "height": 91.97000122070312
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5207608546762295,
+      "y": 0.08698488522145569
+    },
+    "_id": "d9nhx1s2dELbJ4k1jgV/DD"
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 81
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_skeletonData": {
+      "__uuid__": "883ddc56-9c99-4003-9b3d-7df352e0b05d",
+      "__expectedType__": "sp.SkeletonData"
+    },
+    "defaultSkin": "default",
+    "defaultAnimation": "<None>",
+    "_premultipliedAlpha": true,
+    "_timeScale": 1,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
+    "_sockets": [],
+    "_useTint": false,
+    "_debugMesh": false,
+    "_debugBones": false,
+    "_debugSlots": false,
+    "_enableBatch": true,
+    "loop": true,
+    "_id": "f8fxe1LwFGyqDRaxc18LG2"
+  },
+  {
+    "__type__": "f7773JLPgJNQZ/1RGaeMtE4",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 81
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 85
+    },
+    "targeting": {
+      "__id__": 86
+    },
+    "_id": "7agvXRWlZGFJhhVfUmQKqI"
+  },
+  {
+    "__type__": "49443RGWpdMZ7A/7H7TLQcN",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 81
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "strength": 10,
+    "agility": 10,
+    "intellect": 10,
+    "maxHealth": 100,
+    "moveSpeed": 150,
+    "attackPower": 10,
+    "skillPower": 10,
+    "attackSpeed": 1,
+    "attackRange": 150,
+    "armor": 5,
+    "magicResist": 5,
+    "critChance": 0.05,
+    "critDamageMultiplier": 1.5,
+    "lifesteal": 0.1,
+    "dodgeChance": 0.05,
+    "parryChance": 0.05,
+    "blockChance": 0,
+    "blockAmount": 0.3,
+    "cooldownReduction": 0,
+    "maxMana": 100,
+    "manaRegen": 1,
+    "_id": "16IGra1PlIOLwIj6HMNZ3V"
+  },
+  {
+    "__type__": "73ce035I8tLm5RUOZvfcSKL",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 81
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": {
+      "__id__": 87
+    },
+    "bossManagerComponent": {
+      "__id__": 9
+    },
+    "healRadius": 1000,
+    "_id": "bcXhqryapFsqjFswp52ges"
+  },
+  {
+    "__type__": "9337asS5YRBv4eLHd7jpH+P",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 81
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": 0,
+    "preferredMinDistance": 200,
+    "preferredMaxDistance": 400,
+    "threatModifier": 1.5,
+    "healTriggerThreshold": 0.8,
+    "_id": "52SbJosdVAEozJkI9jkBTn"
+  },
+  {
+    "__type__": "9261acd5xtAyrVMhzK6GdCc",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 81
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "c8uEfiQXdKAJuJpQ5BBwCD"
+  },
+  {
+    "__type__": "d5c3dSM+GBN5JGOa0N1IYCE",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 81
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 85
+    },
+    "_id": "edlbVf1XxOvZTBYXmxf6s6"
+  },
+  {
+    "__type__": "dc79bsKUmZArpmVr+vX0DjR",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 81
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 85
+    },
+    "_id": "044PWZlT9OlaJ5hH0Bp7nA"
+  },
+  {
+    "__type__": "e38da2dop5BvrnWlzdqk3rn",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 81
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "7fQcIm2y9GU6hAsTPyFjN3"
+  },
+  {
+    "__type__": "dc7e85IpHFNo75bR/7hh3to",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 81
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 85
+    },
+    "health": {
+      "__id__": 89
+    },
+    "movement": {
+      "__id__": 90
+    },
+    "targeting": {
+      "__id__": 86
+    },
+    "attack": {
+      "__id__": 84
+    },
+    "skills": {
+      "__id__": 91
+    },
+    "role": {
+      "__id__": 87
+    },
+    "stageCenter": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "maxDistanceFromCenter": 500,
+    "_id": "50SnkwPEBC37uMksVbydKB"
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "MeleeDPS_Character-006",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "_parent": {
+      "__id__": 2
+    },
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 94
+      },
+      {
+        "__id__": 95
+      },
+      {
+        "__id__": 96
+      },
+      {
+        "__id__": 100
+      },
+      {
+        "__id__": 97
+      },
+      {
+        "__id__": 101
+      },
+      {
+        "__id__": 102
+      },
+      {
+        "__id__": 99
+      },
+      {
+        "__id__": 103
+      },
+      {
+        "__id__": 98
+      },
+      {
+        "__id__": 104
+      }
+    ],
+    "_prefab": null,
+    "_lpos": {
+      "__type__": "cc.Vec3",
+      "x": -97.389,
+      "y": -14.183,
+      "z": 0
+    },
+    "_lrot": {
+      "__type__": "cc.Quat",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 1
+    },
+    "_lscale": {
+      "__type__": "cc.Vec3",
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "_mobility": 0,
+    "_layer": 33554432,
+    "_euler": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_id": "421M8wy91BL58GkF+qF0Bo"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 93
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 86.22000122070312,
+      "height": 91.97000122070312
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5207608546762295,
+      "y": 0.08698488522145569
+    },
+    "_id": "e9ol/n2qlMdbpDyEssgZui"
+  },
+  {
+    "__type__": "sp.Skeleton",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 93
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_customMaterial": null,
+    "_srcBlendFactor": 2,
+    "_dstBlendFactor": 4,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_skeletonData": {
+      "__uuid__": "883ddc56-9c99-4003-9b3d-7df352e0b05d",
+      "__expectedType__": "sp.SkeletonData"
+    },
+    "defaultSkin": "default",
+    "defaultAnimation": "<None>",
+    "_premultipliedAlpha": true,
+    "_timeScale": 1,
+    "_preCacheMode": 1,
+    "_cacheMode": 1,
+    "_sockets": [],
+    "_useTint": false,
+    "_debugMesh": false,
+    "_debugBones": false,
+    "_debugSlots": false,
+    "_enableBatch": true,
+    "loop": true,
+    "_id": "743iPnyEdA0ZThSPKXuDSX"
+  },
+  {
+    "__type__": "f7773JLPgJNQZ/1RGaeMtE4",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 93
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 97
+    },
+    "targeting": {
+      "__id__": 98
+    },
+    "_id": "41yXulDv9C27KfjlMBfceI"
+  },
+  {
+    "__type__": "49443RGWpdMZ7A/7H7TLQcN",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 93
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "strength": 10,
+    "agility": 10,
+    "intellect": 10,
+    "maxHealth": 100,
+    "moveSpeed": 150,
+    "attackPower": 10,
+    "skillPower": 10,
+    "attackSpeed": 1,
+    "attackRange": 150,
+    "armor": 5,
+    "magicResist": 5,
+    "critChance": 0.05,
+    "critDamageMultiplier": 1.5,
+    "lifesteal": 0.1,
+    "dodgeChance": 0.05,
+    "parryChance": 0.05,
+    "blockChance": 0,
+    "blockAmount": 0.3,
+    "cooldownReduction": 0,
+    "maxMana": 100,
+    "manaRegen": 1,
+    "_id": "53mnTdFFtBOqtHI3FGyVq/"
+  },
+  {
+    "__type__": "73ce035I8tLm5RUOZvfcSKL",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 93
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": {
+      "__id__": 99
+    },
+    "bossManagerComponent": {
+      "__id__": 9
+    },
+    "healRadius": 1000,
+    "_id": "41eSN+kY1Ki7LMihBX19l7"
+  },
+  {
+    "__type__": "9337asS5YRBv4eLHd7jpH+P",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 93
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "role": 0,
+    "preferredMinDistance": 200,
+    "preferredMaxDistance": 400,
+    "threatModifier": 1.5,
+    "healTriggerThreshold": 0.8,
+    "_id": "9dvEjVwEVOta+8Ueg6IeWK"
+  },
+  {
+    "__type__": "9261acd5xtAyrVMhzK6GdCc",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 93
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "d1kJIqcHZO1YIjdkswh7ll"
+  },
+  {
+    "__type__": "d5c3dSM+GBN5JGOa0N1IYCE",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 93
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 97
+    },
+    "_id": "f37Tep5PtLRIWYz6fFKhO0"
+  },
+  {
+    "__type__": "dc79bsKUmZArpmVr+vX0DjR",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 93
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 97
+    },
+    "_id": "09vnMtcJFBWZoZeMssVtZo"
+  },
+  {
+    "__type__": "e38da2dop5BvrnWlzdqk3rn",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 93
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_id": "daMYtGy2pDsamy9FwvkK5i"
+  },
+  {
+    "__type__": "dc7e85IpHFNo75bR/7hh3to",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 93
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "stats": {
+      "__id__": 97
+    },
+    "health": {
+      "__id__": 101
+    },
+    "movement": {
+      "__id__": 102
+    },
+    "targeting": {
+      "__id__": 98
+    },
+    "attack": {
+      "__id__": 96
+    },
+    "skills": {
+      "__id__": 103
+    },
+    "role": {
+      "__id__": 99
+    },
+    "stageCenter": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "maxDistanceFromCenter": 500,
+    "_id": "79izGHp0tID6ifdBuyAr8y"
+  },
+  {
+    "__type__": "cc.UITransform",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 720,
+      "height": 1280
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_id": "d6rUX5yfhMlKoWX2bSbawx"
+  },
+  {
+    "__type__": "cc.Canvas",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_cameraComponent": {
+      "__id__": 4
+    },
+    "_alignCanvasWithScreen": true,
+    "_id": "12O/ljcVlEqLmVm3U2gEOQ"
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "__editorExtras__": {},
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "__prefab": null,
+    "_alignFlags": 45,
+    "_target": null,
+    "_left": 0,
+    "_right": 0,
+    "_top": 5.684341886080802e-14,
+    "_bottom": 5.684341886080802e-14,
+    "_horizontalCenter": 0,
+    "_verticalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 0,
+    "_originalHeight": 0,
+    "_alignMode": 2,
+    "_lockFlags": 0,
+    "_id": "c5V1EV8IpMtrIvY1OE9t2u"
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": null,
+    "asset": null,
+    "fileId": "96eced35-a6f6-4622-a5e8-4e119d786f65",
+    "instance": null,
+    "targetOverrides": null
+  },
+  {
+    "__type__": "cc.SceneGlobals",
+    "ambient": {
+      "__id__": 110
+    },
+    "shadows": {
+      "__id__": 111
+    },
+    "_skybox": {
+      "__id__": 112
+    },
+    "fog": {
+      "__id__": 113
+    },
+    "octree": {
+      "__id__": 114
+    },
+    "skin": {
+      "__id__": 115
+    },
+    "lightProbeInfo": {
+      "__id__": 116
+    },
+    "postSettings": {
+      "__id__": 117
+    },
+    "bakedWithStationaryMainLight": false,
+    "bakedWithHighpLightmap": false
+  },
+  {
+    "__type__": "cc.AmbientInfo",
+    "_skyColorHDR": {
+      "__type__": "cc.Vec4",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 0.520833125
+    },
+    "_skyColor": {
+      "__type__": "cc.Vec4",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 0.520833125
+    },
+    "_skyIllumHDR": 20000,
+    "_skyIllum": 20000,
+    "_groundAlbedoHDR": {
+      "__type__": "cc.Vec4",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 0
+    },
+    "_groundAlbedo": {
+      "__type__": "cc.Vec4",
+      "x": 0,
+      "y": 0,
+      "z": 0,
+      "w": 0
+    },
+    "_skyColorLDR": {
+      "__type__": "cc.Vec4",
+      "x": 0.2,
+      "y": 0.5,
+      "z": 0.8,
+      "w": 1
+    },
+    "_skyIllumLDR": 20000,
+    "_groundAlbedoLDR": {
+      "__type__": "cc.Vec4",
+      "x": 0.2,
+      "y": 0.2,
+      "z": 0.2,
+      "w": 1
+    }
+  },
+  {
+    "__type__": "cc.ShadowsInfo",
+    "_enabled": false,
+    "_type": 0,
+    "_normal": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 1,
+      "z": 0
+    },
+    "_distance": 0,
+    "_planeBias": 1,
+    "_shadowColor": {
+      "__type__": "cc.Color",
+      "r": 76,
+      "g": 76,
+      "b": 76,
+      "a": 255
+    },
+    "_maxReceived": 4,
+    "_size": {
+      "__type__": "cc.Vec2",
+      "x": 512,
+      "y": 512
+    }
+  },
+  {
+    "__type__": "cc.SkyboxInfo",
+    "_envLightingType": 0,
+    "_envmapHDR": null,
+    "_envmap": null,
+    "_envmapLDR": null,
+    "_diffuseMapHDR": null,
+    "_diffuseMapLDR": null,
+    "_enabled": false,
+    "_useHDR": true,
+    "_editableMaterial": null,
+    "_reflectionHDR": null,
+    "_reflectionLDR": null,
+    "_rotationAngle": 0
+  },
+  {
+    "__type__": "cc.FogInfo",
+    "_type": 0,
+    "_fogColor": {
+      "__type__": "cc.Color",
+      "r": 200,
+      "g": 200,
+      "b": 200,
+      "a": 255
+    },
+    "_enabled": false,
+    "_fogDensity": 0.3,
+    "_fogStart": 0.5,
+    "_fogEnd": 300,
+    "_fogAtten": 5,
+    "_fogTop": 1.5,
+    "_fogRange": 1.2,
+    "_accurate": false
+  },
+  {
+    "__type__": "cc.OctreeInfo",
+    "_enabled": false,
+    "_minPos": {
+      "__type__": "cc.Vec3",
+      "x": -1024,
+      "y": -1024,
+      "z": -1024
+    },
+    "_maxPos": {
+      "__type__": "cc.Vec3",
+      "x": 1024,
+      "y": 1024,
+      "z": 1024
+    },
+    "_depth": 8
+  },
+  {
+    "__type__": "cc.SkinInfo",
+    "_enabled": false,
+    "_blurRadius": 0.01,
+    "_sssIntensity": 3
+  },
+  {
+    "__type__": "cc.LightProbeInfo",
+    "_giScale": 1,
+    "_giSamples": 1024,
+    "_bounces": 2,
+    "_reduceRinging": 0,
+    "_showProbe": true,
+    "_showWireframe": true,
+    "_showConvex": false,
+    "_data": null,
+    "_lightProbeSphereVolume": 1
+  },
+  {
+    "__type__": "cc.PostSettingsInfo",
+    "_toneMappingType": 0
+  }
+]

@@ -1,0 +1,155 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+Rule Name: 中文注释与代码整洁
+Description: 所有代码注释均使用中文，并时刻注意保持代码的整洁性。
+
+---
+
+Rule Name: 命名规范 (Naming Conventions)
+Description: 为了代码的可读性和一致性，规定项目中的命名方式。
+Details:
+  - 变量和函数名: 小驼峰命名法 (e.g., `myVariable`, `calculateValue`)。
+  - 类名和组件名 (Cocos Creator): 大驼峰命名法 (PascalCase) (e.g., `PlayerController`, `GameManager`)。
+  - 常量名: 全大写和下划线 (e.g., `MAX_COUNT`, `DEFAULT_SPEED`)。
+  - 私有成员/方法 (约定): 以下划线开头 (e.g., `_privateData`, `_initialize()`)。
+  - 文件名 (脚本、预制体等): 与其主要类/组件名保持一致，使用大驼峰或小驼峰（需统一）。
+
+---
+
+Rule Name: 代码风格 (Code Style)
+Description: 统一代码的书写格式，使代码库风格一致，易于阅读和维护。
+Details:
+  - 缩进: 使用4个空格进行缩进。
+  - 行尾分号: JavaScript/TypeScript中建议总是使用分号。
+  - 大括号: 控制语句（if, for, while等）的大括号不省略，并与关键字在同一行（K&R风格）或新起一行（Allman风格） - 选择一种并保持一致。
+  - 空行: 在逻辑块之间、函数/方法定义之间、导入语句块后使用空行分隔，以提高可读性。
+  - 每行最大长度: 建议不超过120个字符。
+  - 注释: 重要逻辑、复杂算法、对外接口等应有清晰注释。
+
+---
+
+Rule Name: 资源管理规范 (Asset Management)
+Description: 规定项目资源的命名、组织和使用方式，特别是在游戏开发中。
+Details:
+  - 资源命名:
+    - 结构: `类型_模块_具体描述_状态或序号` (e.g., `sprite_ui_button_confirm_normal.png`, `audio_sfx_player_jump_01.mp3`, `prefab_enemy_grunt.prefab`)。
+    - 类型缩写: `tex` (Texture), `mat` (Material), `anim` (Animation Clip), `prefab` (Prefab), `scene` (Scene), `audio` (AudioClip), `font` (Font), `sp` (Spine SkeletonData), `json`, `txt`, 等。
+  - 目录结构: 资源应按类型或功能模块组织在清晰的目录结构中。
+    - 建议顶层按资源大类分 (e.g., `assets/textures/`, `assets/prefabs/`, `assets/audio/`, `assets/scenes/`, `assets/scripts/`)。
+    - 次级目录可按功能模块或更细的分类 (e.g., `assets/textures/character/player/`, `assets/scripts/gameplay/`)。
+  - 资源优化: 注意图片压缩、音频格式选择（如 `.ogg` 或 `.mp3`）、模型多边形数量等，以优化性能和包体大小。
+
+---
+
+Rule Name: 错误处理 (Error Handling)
+Description: 规定统一的错误处理机制，确保代码的健壮性。
+Details:
+  - 使用 `try-catch` 捕获可能发生的异常，特别是在与外部系统交互或执行不可靠操作时。
+  - 避免空的 `catch` 块；如果捕获异常后不处理，应明确注释原因或记录日志。
+  - 对于可预期的错误，提供用户友好的提示或执行回退逻辑。
+  - 定义清晰的错误码或错误类型，方便定位和处理。
+
+---
+
+Rule Name: 日志规范 (Logging Standards)
+Description: 统一日志的记录方式、级别和内容，方便调试和问题追踪。
+Details:
+  - 日志级别:
+    - `DEBUG`: 用于开发调试，包含详细信息。
+    - `INFO`: 记录系统运行的关键信息和状态变化。
+    - `WARNING`: 潜在问题或非严重错误。
+    - `ERROR`: 发生错误，影响部分功能，但系统仍可运行。
+    - `CRITICAL` (或 `FATAL`): 严重错误，导致系统无法继续运行。
+  - 日志内容: 应包含时间戳、日志级别、模块/类名、函数名以及具体的事件描述或错误信息。
+  - 生产环境: 应调整日志级别，通常只输出 `INFO` 及以上级别日志，避免过多 `DEBUG` 日志影响性能。
+  - 使用项目统一的日志库或Cocos Creator提供的 `console.log/warn/error` 等。
+
+---
+
+Rule Name: 模块化与组件化 (Modularity and Componentization)
+Description: 鼓励将代码组织成高内聚、低耦合的模块或组件，提高代码复用性和可维护性。
+Details:
+  - 单一职责原则: 每个脚本/类应专注于单一职责。
+  - Cocos Creator:
+    - 充分利用节点（Node）组织场景层级。
+    - 将逻辑封装在组件（Component）中，挂载到对应的节点上。
+    - 善用预制体（Prefab）来复用节点及其组件配置。
+  - 接口清晰: 模块/组件间的交互应通过明确定义的接口（属性、方法、事件）。
+  - 低耦合: 减少模块间的直接依赖。优先使用事件系统（如Cocos Creator的事件系统）进行组件间通信，而非直接引用。
+
+---
+
+Rule Name: 性能优化注意事项 (Performance Optimization Guidelines)
+Description: 提醒开发者在编码过程中关注性能，避免常见的性能瓶颈。
+Details:
+  - `update` 函数: 避免在 `update`, `lateUpdate` 等每帧调用的函数中执行高开销操作（如复杂的计算、节点查找 `find`、创建/销毁对象 `instantiate/destroy`、字符串拼接）。
+  - 对象池: 对于频繁创建和销毁的对象（如子弹、特效），使用对象池进行复用。
+  - Draw Call 优化:
+    - 合理使用图集（Sprite Atlas）。
+    - 动态合批（Dynamic Batching）和静态合批（Static Batching，如使用 `StaticSpriteBatcher` 组件）。
+    - 控制UI元素的复杂度和层级。
+  - 资源加载: 使用 `assetManager` 进行异步加载资源，避免阻塞主线程。按需加载，及时释放不再使用的资源 (`assetManager.releaseAsset` 或 `asset.decRef()`)。
+  - 节点查找: 避免频繁使用 `find`。优先通过属性赋值、`getChildByName` (如果层级固定) 或事件传递获取节点引用。
+  - 物理引擎: 优化碰撞体数量和形状，调整物理步长和迭代次数。
+  - 内存管理: 注意闭包、定时器、事件监听器等可能导致的内存泄漏，及时移除不再需要的引用。
+
+---
+
+Rule Name: 版本控制规范 (Version Control Best Practices - Git)
+Description: 确保团队成员遵循一致的版本控制流程，提高协作效率和代码库的健康度。
+Details:
+  - 提交信息 (Commit Messages):
+    - 格式: 建议遵循 Conventional Commits 规范 (`<type>[optional scope]: <description>`)。
+      - `type`: `feat` (新功能), `fix` (bug修复), `docs` (文档修改), `style` (代码格式), `refactor` (重构), `perf` (性能优化), `test` (测试), `chore` (构建过程或辅助工具变动)。
+    - 内容: 清晰、简洁，概括本次提交的主要变更。
+  - 提交频率: 鼓励小而频繁的原子性提交。一个提交对应一个独立的逻辑变更。
+  - 分支策略:
+    - `main` (或 `master`): 保持稳定，用于发布。
+    - `develop`: 主要开发分支，集成各功能。
+    - `feature/<feature-name>`: 开发新功能的分支，从 `develop` 分出，完成后合并回 `develop`。
+    - `fix/<issue-id>`: 修复bug的分支，从 `develop` 或 `main` 分出，修复后合并回去。
+    - `hotfix/<issue-id>`: 紧急修复线上bug的分支，从 `main` 分出，修复后同时合并到 `main` 和 `develop`。
+  - 工作流程:
+    - 开始新任务前，从远程拉取最新代码 (`git pull` 或 `git fetch` + `git merge/rebase`)。
+    - 定期推送本地提交到远程分支 (`git push`)。
+    - 使用 Pull Request (PR) / Merge Request (MR) 进行代码审查和合并。
+  - `.gitignore`: 合理配置 `.gitignore` 文件，忽略IDE配置文件、构建产物、本地缓存等不需要版本控制的文件 (Cocos Creator 项目会自动生成大部分)。
+
+---
+
+Rule Name: API 设计与使用 (API Design and Usage)
+Description: 若项目涉及内部模块间API或调用外部服务API，需遵循的规范。
+Details:
+  - 内部API (模块/组件接口):
+    - 接口明确: 方法名和参数应清晰表达其功能。
+    - 稳定性: 接口一旦确定，尽量避免随意更改，以免影响其他模块。
+    - 参数校验: 对外暴露的接口应对输入参数进行校验。
+  - 外部API调用:
+    - 错误处理: 必须处理网络错误、API返回的错误码等异常情况。
+    - 超时设置: 为API请求设置合理的超时时间。
+    - 重试机制: 对某些可重试的错误（如网络抖动），可以实现简单的重试逻辑。
+    - 敏感信息: API密钥、Token等不应硬编码在代码中。使用配置文件、环境变量或专门的密钥管理服务。
+    - 异步处理: 网络请求应使用异步方式，避免阻塞主线程。
+
+---
+
+Rule Name: 代码审查 (Code Review)
+Description: 建立代码审查流程，以提高代码质量、分享知识、统一规范和发现潜在问题。
+Details:
+  - 审查范围:
+    - 功能实现是否正确。
+    - 是否遵循项目编码规范和设计模式。
+    - 代码可读性、可维护性。
+    - 性能、安全性、错误处理是否考虑周全。
+    - 是否有冗余代码或不必要的复杂性。
+    - 测试覆盖率（如果适用）。
+  - 审查流程:
+    - 通常在代码合并到主要分支（如 `develop`, `main`）之前进行。
+    - 至少需要一名其他团队成员进行审查。
+    - 审查者提供具体、建设性的反馈。
+    - 提交者根据反馈进行修改，并与审查者讨论，直至达成一致。
+
+  - 心态: 保持开放和尊重的态度，将代码审查视为学习和共同进步的机会。 

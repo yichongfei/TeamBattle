@@ -1,6 +1,6 @@
 import { _decorator, Component, Node, Vec3, director } from 'cc';
 import { IDamageable, IHealable, ITargetable } from '../../common/Interfaces';
-import { AttackType, CharacterState } from '../../common/Enums';
+import { DamageType, CharacterState } from '../../common/Enums';
 import { CharacterStats } from './CharacterStats'; // 可能需要获取最大生命值
 // import { AIComponent } from '../ai/AIComponent'; // 可能需要通知 AI 死亡
 
@@ -34,7 +34,7 @@ export class HealthComponent extends Component implements IDamageable, IHealable
     }
 
     // --- IDamageable Implementation ---
-    applyDamage(potentialDamage: number, type: AttackType, isCrit: boolean, source?: Node): void {
+    applyDamage(potentialDamage: number, type: DamageType, isCrit: boolean, source?: Node): void {
         if (!this._isAlive) return;
 
         const targetStats = this.stats;
@@ -44,14 +44,14 @@ export class HealthComponent extends Component implements IDamageable, IHealable
         }
 
         let finalDamage = potentialDamage;
-        if (type === AttackType.PHYSICAL) {
+        if (type === DamageType.PHYSICAL) {
             const armor = targetStats.getCurrentArmor();
             const reductionFactor = 500;
             const damageReduction = armor / (armor + reductionFactor);
             finalDamage = potentialDamage * (1 - damageReduction);
-        } else if (type === AttackType.MAGICAL) {
+        } else if (type === DamageType.MAGICAL) {
             // TODO: 实现基于魔法抗性的减伤
-        } else if (type === AttackType.TRUE) {
+        } else if (type === DamageType.TRUE) {
             // 真实伤害无视防御和抗性
         }
 

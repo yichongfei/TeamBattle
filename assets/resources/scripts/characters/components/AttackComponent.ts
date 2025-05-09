@@ -3,7 +3,7 @@ import { CharacterStats } from './CharacterStats'; // 获取攻击力、攻速�
 import { TargetingComponent } from './TargetingComponent'; // 获取当前目标
 import { HealthComponent } from './HealthComponent'; // 对目标造成伤害 (通过 IDamageable)
 import { ITargetable, IDamageable } from '../../common/Interfaces';
-import { AttackType } from '../../common/Enums';
+import { DamageType } from '../../common/Enums';
 
 const { ccclass, property } = _decorator;
 
@@ -107,7 +107,7 @@ export class AttackComponent extends Component {
             potentialDamage *= attackerStats.critDamageMultiplier;
         }
 
-        const attackType = AttackType.PHYSICAL;
+        const attackType = DamageType.PHYSICAL;
 
         this.scheduleOnce(() => {
              const currentDamageable = targetNode.getComponent(HealthComponent) as IDamageable;

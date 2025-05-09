@@ -1,13 +1,7 @@
-import { _decorator, Component, CCFloat, CCInteger, warn } from 'cc';
+import { _decorator, Component, CCFloat, CCInteger, warn, log, Enum } from 'cc';
+import { Faction } from '../../common/Enums';
 
 const { ccclass, property } = _decorator;
-
-// 可以定义一个枚举来表示主要属性 (如果需要动态获取)
-// export enum PrimaryAttribute {
-//     STRENGTH,
-//     AGILITY,
-//     INTELLECT
-// }
 
 /**
  * 存储和管理角色的复杂属性。
@@ -115,12 +109,27 @@ export class CharacterStats extends Component {
     @property({ type: CCFloat, group: 'Resources' })
     manaRegen: number = 1.0; // 每秒法力恢复
 
+    @property({
+        type: Enum(Faction),
+        tooltip: '单位所属阵营',
+        group: 'General' // 可以自定义分组名
+    })
+    faction: Faction = Faction.PLAYER; // 设置一个默认值，例如敌人
+
     private _currentHealth: number = 0; // 当前生命值 (移到 HealthComponent 管理)
     private _currentMana: number = 0; // 当前法力值
+
+    // --- 资源管理 (示例) ---
+    // 使用 Map 存储不同类型的资源及其当前值
+    private resources: Map<string, number> = new Map();
+    private maxResources: Map<string, number> = new Map();
 
     onLoad() {
         // 注意: 当前生命值由 HealthComponent 初始化和管理
         this._currentMana = this.maxMana;
+        // 初始化示例资源
+        this.initializeResource('mana', this.maxMana);
+        this.initializeResource('rage', 0); // 怒气初始为 0
     }
 
     start() {
@@ -183,4 +192,53 @@ export class CharacterStats extends Component {
         }
         // 可能需要处理 Buff/Debuff 的持续时间
     }
+
+    /**
+     * 初始化一种资源类型
+     * @param type 资源类型字符串 (e.g., 'mana', 'rage')
+     * @param maxValue 最大值
+     * @param startValue 初始值 (默认为最大值)
+     */
+    initializeResource(type: string, maxValue: number, startValue?: number) {
+        this.maxResources.set(type, maxValue);
+        this.resources.set(type, startValue === undefined ? maxValue : startValue);
+    }
+
+    /**
+     * [占位符] 检查是否有足够的资源。
+     * TODO: 实现真实的资源检查逻辑。
+     * @param resource 资源类型字符串 (e.g., 'mana')
+     * @param amount 需要的数量
+     * @returns 目前总是返回 true
+     */
+    public hasEnoughResource(resource: string, amount: number): boolean {
+        const currentAmount = this.resources.get(resource) ?? 0;
+        log(`检查资源: ${resource}, 需要: ${amount}, 当前: ${currentAmount}`);
+        // return currentAmount >= amount; // 真实的检查逻辑
+        return true; // 临时返回 true 以消除编译错误
+    }
+
+    /**
+     * [占位符] 尝试消耗指定数量的资源。
+     * TODO: 实现真实的资源消耗逻辑。
+     * @param resource 资源类型字符串
+     * @param amount 要消耗的数量
+     * @returns 如果消耗成功（或当前总是成功），返回 true；否则返回 false
+     */
+    public tryConsumeResource(resource: string, amount: number): boolean {
+        if (this.hasEnoughResource(resource, amount)) {
+            const currentAmount = this.resources.get(resource) ?? 0;
+            // this.resources.set(resource, currentAmount - amount); // 真实的消耗逻辑
+            log(`尝试消耗资源: ${resource}, 数量: ${amount}. (当前为占位符，未实际扣除)`);
+            return true; // 临时返回 true
+        } else {
+            log(`尝试消耗资源失败: ${resource}, 数量: ${amount}, 资源不足`);
+            return false;
+        }
+    }
+
+    // TODO: 添加获取其他属性的方法 (如暴击率、攻速、冷却缩减等)
+    // public getCurrentCritChance(): number { return 0.1; } // 示例
+    // public getCurrentAttackSpeed(): number { return 1.0; } // 示例
+    // public getCurrentCooldownReduction(): number { return 0; } // 示例
 } 

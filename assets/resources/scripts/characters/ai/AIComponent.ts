@@ -9,8 +9,7 @@ import { RoleComponent } from '../components/RoleComponent';
 import { CharacterState } from '../../common/Enums';
 import { ITargetable } from '../../common/Interfaces';
 import { PlayerSquadManager } from '../../PlayerSquadManager';
-// PlayerSquadManager 暂时不再直接用于此脚本的核心逻辑
-// import { PlayerSquadManager } from '../../PlayerSquadManager'; 
+import { getSkillDefinition } from '../../data/SkillDatabase';
 
 const { ccclass, property } = _decorator;
 
@@ -51,6 +50,7 @@ export class AIComponent extends Component {
     private _currentState: CharacterState = CharacterState.IDLE;
     private _isActive: boolean = true;
     private _currentTarget: ITargetable | null = null; // 缓存当前目标，用于检测目标失效
+    private _actionLockoutTimer: number = 1; // 新增：动作锁定计时器 
 
     onLoad() {
         // 确保所有必要的组件都存在
@@ -88,6 +88,11 @@ export class AIComponent extends Component {
     }
 
     update(deltaTime: number) {
+        if (this._actionLockoutTimer > 0) {
+            this._actionLockoutTimer -= deltaTime;
+            return; // 在锁定期间，不做任何其他 AI 逻辑
+        }
+
         if (!this._isActive || this._currentState === CharacterState.DEAD || this._currentState === CharacterState.STUNNED) {
             return;
         }
@@ -105,6 +110,27 @@ export class AIComponent extends Component {
         const isSelfAlive = this.health?.isAlive() ?? false;
 
         if (target && isSelfAlive && targetNode && targetNode.isValid) {
+
+            // --- BEGIN SKILL USAGE ATTEMPT ---
+            if (this.skills && this.skills.knownSkillIDs && this.skills.knownSkillIDs.length > 0) {
+                for (const skillId of this.skills.knownSkillIDs) {
+                    if (this.skills.canPotentiallyUseSkill(skillId)) {
+                        if (this.skills.tryUseSkill(skillId)) {
+                            console.log(`[${this.node.name}] AI: Successfully initiated skill [${skillId}].`);
+                            const definition = getSkillDefinition(skillId); // 获取技能定义
+                            if (definition && typeof definition.actionLockoutDuration === 'number') {
+                                this._actionLockoutTimer = definition.actionLockoutDuration;
+                            } else {
+                                this._actionLockoutTimer = 0.5; // 如果技能没有定义锁定时间，给一个默认值
+                            }
+                            return;
+                        }
+                    }
+                }
+            }
+            // --- END SKILL USAGE ATTEMPT ---
+
+            // If no skill was used, proceed with normal move/attack logic
             const bossPosition = target.getPosition();
             const distanceToBoss = Vec3.distance(this.node.worldPosition, bossPosition);
             const attackRange = this.stats.attackRange;

@@ -153,12 +153,12 @@
     "strength": 10,
     "agility": 10,
     "intellect": 10,
-    "maxHealth": 10000,
+    "maxHealth": 100000,
     "moveSpeed": 150,
     "attackPower": 10,
     "skillPower": 10,
     "attackSpeed": 1,
-    "attackRange": 50,
+    "attackRange": 150,
     "armor": 5,
     "magicResist": 5,
     "critChance": 0.05,
@@ -171,6 +171,7 @@
     "cooldownReduction": 0,
     "maxMana": 100,
     "manaRegen": 1,
+    "faction": 1,
     "_id": ""
   },
   {

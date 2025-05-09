@@ -6,19 +6,23 @@ const { ccclass, property } = _decorator;
 export class MovementComponent extends Component {
 
     /* ---------- 内部参数，不再暴露给编辑器 ---------- */
-    /** 感知邻居半径(px) */
-    private neighborRadius = 120;
-    /** 分离权重 */
-    private separationWeight = 160;
+    /** 角色半径(px)，用于软碰撞推开 */
+    private personalRadius = 28;
+    /** 允许的最小重叠比 (0~1)，0 表示硬碰撞 */
+    private overlapTolerance = 0.4; // 允许 40% 重叠
+    /** 分离力权重 (越大推力越强) */
+    private separationWeight = 60;
+    /** 抵达槽位时的容差(px) */
+    private arriveTolerance = 6;
     /** 减速半径(px) */
     private arriveSlowingRadius = 80;
     /** 最大速度(px/s) */
-    private maxSpeed = 2000;
+    private maxSpeed = 1600;
     /** 最大Steering力 */
-    private maxForce = 2700;
+    private maxForce = 2200;
 
     /* ---------- 内部状态 ---------- */
-    private readonly _neighborRadiusSq = 0;
+    private _neighborRadiusSq = 0;
     private _velocity = new Vec3();
     private _accel = new Vec3();
     private _moveTarget: Vec3 | null = null;
@@ -26,7 +30,9 @@ export class MovementComponent extends Component {
     private _isMoving = false;
 
     onLoad() {
-        (this as any)._neighborRadiusSq = this.neighborRadius * this.neighborRadius;
+        // 根据个人半径与容差动态计算邻居感知距离 (≈ 两个圆心距离阈值)
+        const minDist = this.personalRadius * (2 - this.overlapTolerance);
+        this._neighborRadiusSq = minDist * minDist;
     }
 
     /* ======== AIComponent 期望的接口 ======== */
@@ -57,20 +63,36 @@ export class MovementComponent extends Component {
         this._accel.set(Vec3.ZERO);
 
         if (this._moveTarget) {
-            this.applyForce(this.arrive(this._moveTarget));
-            this._isMoving = true;
+            const distToTarget = Vec3.distance(this.node.worldPosition, this._moveTarget);
+
+            // 1. 未到槽位 →正常 Arrive + Separation
+            if (distToTarget > this.arriveTolerance) {
+                this.applyForce(this.arrive(this._moveTarget));
+
+                // 根据距离槽位远近动态衰减分离力，越接近槽位分离力越弱，避免临门推搡
+                let sepFactor = 1;
+                if (distToTarget < this.arriveSlowingRadius) {
+                    sepFactor = (distToTarget - this.arriveTolerance) / (this.arriveSlowingRadius - this.arriveTolerance);
+                    sepFactor = Math.max(0, Math.min(1, sepFactor));
+                }
+                if (sepFactor > 0.01) {
+                    this.applyForce(this.separate().multiplyScalar(this.separationWeight * sepFactor));
+                }
+
+                this._isMoving = true;
+            } else {
+                // 2. 已抵达槽位 → 停止移动，避免持续推搡
+                this._moveTarget = null;
+                this._velocity.set(0, 0, 0);
+                this._isMoving = false;
+            }
         } else {
-            // 自动刹车
+            // 没有移动目标，进行被动减速
             if (this._velocity.lengthSqr() > 1) {
                 const brake = this._velocity.clone().multiplyScalar(-1);
                 this.applyForce(brake);
-            } else {
-                this._isMoving = false;
             }
         }
-
-        // 分离
-        this.applyForce(this.separate().multiplyScalar(this.separationWeight));
 
         /* 速度积分 + 阻尼 */
         this._velocity.add(this._accel.multiplyScalar(dt));
@@ -101,15 +123,33 @@ export class MovementComponent extends Component {
     }
     private separate(): Vec3 {
         const steer = new Vec3(); let count = 0;
+        const minDist = this.personalRadius * (2 - this.overlapTolerance);
+        const minDistSq = minDist * minDist;
+
         for (const mate of this._squadMates) {
-            if (mate === this) continue;
+            if (mate === this || !mate.isValid) continue; // 添加 isValid 检查
+
             const diff = this.node.worldPosition.clone().subtract(mate.node.worldPosition);
             const dSq = diff.lengthSqr();
-            if (dSq > 0 && dSq < (this as any)._neighborRadiusSq) {
-                diff.normalize().multiplyScalar(1 / dSq);
-                steer.add(diff); ++count;
+
+            if (dSq > 0 && dSq < minDistSq) {
+                // 检查 mate 是否已经到达目标
+                const mateHasArrived = !mate._moveTarget || Vec3.distance(mate.node.worldPosition, mate._moveTarget) < mate.arriveTolerance;
+                
+                // 推力随距离成线性递增
+                const strength = (minDistSq - dSq) / minDistSq; // 0~1
+                const pushForce = diff.normalize().multiplyScalar(strength);
+
+                // 如果 mate 已经到达，则大幅降低其推力
+                if (mateHasArrived) {
+                    pushForce.multiplyScalar(0); // 例如，只施加 10% 的力
+                }
+
+                steer.add(pushForce);
+                count++;
             }
         }
+
         if (count > 0) steer.multiplyScalar(1 / count);
         if (steer.lengthSqr() > 0) {
             steer.normalize().multiplyScalar(this.maxSpeed).subtract(this._velocity);

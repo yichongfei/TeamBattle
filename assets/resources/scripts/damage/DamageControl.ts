@@ -3,7 +3,7 @@ import { _decorator, Component, Node, Label, Vec3, find, UITransform, tween, UIO
 import { LabelAnimData } from '../pop/popuplabel/label-anim-data';
 import { ObjectPool } from '../pop/popuplabel/object-pool';
 import { PopUpLabel } from '../pop/popuplabel/popup-label';
-import { AttackType as DamageSystemAttackType } from '../common/Enums'; // 重命名避免与 DamageControl 内部的 DamageType 冲突
+import { DamageType as DamageSystemAttackType } from '../common/Enums'; // 重命名避免与 DamageControl 内部的 DamageType 冲突
 
 const { ccclass, property } = _decorator;
 

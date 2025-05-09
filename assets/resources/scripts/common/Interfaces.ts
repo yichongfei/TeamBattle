@@ -1,11 +1,11 @@
 import { Node, Vec3 } from 'cc';
-import { AttackType } from './Enums';
+import { DamageType } from './Enums';
 
 /**
  * 代表可以受到伤害的实体
  */
 export interface IDamageable {
-    applyDamage(amount: number, type: AttackType, isCrit: boolean, source?: Node): void;
+    applyDamage(amount: number, type: DamageType, isCrit: boolean, source?: Node): void;
     isAlive(): boolean;
     // 可以添加 getHealth(), getMaxHealth() 等
 }

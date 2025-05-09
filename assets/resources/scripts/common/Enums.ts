@@ -54,11 +54,36 @@ export enum SkillTargetType {
 /**
  * 攻击类型 (用于伤害计算或效果区分)
  */
-export enum AttackType {
+export enum DamageType {
     PHYSICAL,   // 物理
     MAGICAL,    // 魔法
     TRUE,       // 真实伤害
     // ... 其他
+}
+
+/**
+ * 技能效果类型
+ */
+export enum EffectType {
+    DAMAGE,             // 造成伤害
+    HEAL,               // 恢复生命
+    BUFF,               // 施加增益效果
+    DEBUFF,             // 施加减益效果
+    SPAWN_PROJECTILE,   // 生成投射物
+    SPAWN_UNIT,         // 召唤单位
+    TELEPORT,           // 位移/传送
+    APPLY_FORCE,        // 施加力 (击退/吸引)
+    // ... 可以根据需要添加更多效果类型
+}
+
+/**
+ * 阵营类型
+ */
+export enum Faction {
+    PLAYER,     // 玩家或玩家队伍
+    ENEMY,      // AI 敌人
+    NEUTRAL,    // 中立单位 (可选)
+    // 未来可以扩展为 PLAYER_TEAM_1, PLAYER_TEAM_2 等
 }
 
 // 如果需要，可以在这里添加更多全局使用的枚举

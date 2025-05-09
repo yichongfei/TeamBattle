@@ -42,6 +42,7 @@ export class CharacterAnimation extends Component {
      * @param loop 是否循环
      */
     private onPlayAnimation(animName: string, loop: boolean) {
+        debugger;
         this.playAnimation(animName, loop);
     }
 

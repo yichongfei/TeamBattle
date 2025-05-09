@@ -1,4 +1,4 @@
-import { _decorator, Component, Node, isValid, find } from 'cc';
+import { _decorator, Component, Node, isValid, find, debug } from 'cc';
 // 静态导入 HealthComponent 类型，避免循环依赖和动态导入问题
 import { HealthComponent } from './characters/components/HealthComponent';
 import { Vec3 } from 'cc';
@@ -21,12 +21,6 @@ const { ccclass, property } = _decorator;
 @ccclass('PlayerSquadManager')
 export class PlayerSquadManager extends Component {
 
-    // 移除编辑器直接指定的数组，改为动态管理
-    // @property({
-    //     type: [Node],
-    //     tooltip: '玩家小队所有成员的根节点列表'
-    // })
-    // playerCharacters: Node[] = [];
 
     // 使用 Map 存储角色 Node 和对应的 squadIndex
     private squadMembers: Map<Node, number> = new Map<Node, number>();
@@ -41,11 +35,9 @@ export class PlayerSquadManager extends Component {
             if (managerNode) {
                  PlayerSquadManager._instance = managerNode.getComponent(PlayerSquadManager);
                  if (!PlayerSquadManager._instance) {
-                      // 使用 console.warn
                       console.warn("PlayerSquadManager: Node found, but component missing.");
                  }
             } else {
-                 // 使用 console.warn
                  console.warn("PlayerSquadManager: Instance not found in scene.");
             }
         }
@@ -54,7 +46,7 @@ export class PlayerSquadManager extends Component {
 
     onLoad() {
         if (PlayerSquadManager._instance && PlayerSquadManager._instance !== this) {
-             // 使用 console.warn
+            
              console.warn("PlayerSquadManager: Multiple instances detected. Destroying this one.");
              this.destroy();
              return;
@@ -109,9 +101,11 @@ export class PlayerSquadManager extends Component {
             characterNode.once('destroy', () => {
                 this.removeCharacter(characterNode);
             });
+            // 调整：添加成功后刷新小队分离列表
+            this.broadcastSquadLists();
             return assignedIndex;
         }
-        // 使用 console.warn
+       
         console.warn(`PlayerSquadManager: Failed to add character [${characterNode?.name ?? 'Invalid Node'}]`);
         return -1;
     }
@@ -136,6 +130,8 @@ export class PlayerSquadManager extends Component {
              this.squadMembers.delete(characterNode);
              // 使用 console.log
              console.log(`PlayerSquadManager: Character [${characterNode.name}] (Index ${removedIndex}) removed. Total: ${this.squadMembers.size}`);
+             // --- 新增: 移除后也需刷新分离列表 ---
+             this.broadcastSquadLists();
          } else {
              // 可能在 DESTROY 事件触发前已经被手动移除
              // warn(`PlayerSquadManager: Tried to remove character [${characterNode?.name}] which was not found.`);
